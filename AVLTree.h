@@ -2,6 +2,7 @@
 #ifndef INC_22S_FINAL_PROJ_AVLTREE_H
 #define INC_22S_FINAL_PROJ_AVLTREE_H
 
+#include <cassert>
 
 // Weiss AVL Implementation - http://www.uoitc.edu.iq/images/documents/informatics-institute/Competitive_exam/DataStructures.pdf
 
@@ -47,6 +48,9 @@ private:
         }
 
         // TODO: HANDLE DUPLICATES
+        /*else if (x == t->element) {
+            return;
+        }*/
 
         balance(t);
 
@@ -89,6 +93,7 @@ private:
         k2->left = k1;
         k1->height = max(height(k1->left), height(k1->right)) + 1;
         k2->height = max(k1->height, height(k2->right));
+        k1 = k2;
     }
 
     void doubleWithLeftChild(AVLNode<T>* & k3) {
@@ -101,6 +106,20 @@ private:
         rotateWithRightChild(k3);
     }
 
+    T& find_node(const T &x, AVLNode<T>*& t) {
+
+        assert(t != nullptr);
+
+        if (x < t->element) {
+            find_node(x, t->left);
+        } else if (t->element < x) {
+            find_node(x, t->right);
+        } else if (t->element == x) {
+            return t->element;
+        }
+
+    }
+
 
 public:
     AVLTree<T>() : root(nullptr) {}
@@ -110,6 +129,11 @@ public:
     void insert (const T &x) {
         insert(x, root);
     }
+
+    T& find_node(const T &x) {
+        find_node(x, root);
+    }
+
 
 
 };
