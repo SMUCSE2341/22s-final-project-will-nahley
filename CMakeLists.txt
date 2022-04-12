@@ -3,4 +3,4 @@ project(22s_final_proj)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(22s_final_proj main.cpp AVLTree.h)
+add_executable(22s_final_proj main.cpp AVLTree.h Term.cpp Term.h)

@@ -1,9 +1,16 @@
 #include <iostream>
 #include "AVLTree.h"
+#include "term.h"
+#include "rapidjson"
 
 #include "catch_setup.h"
-
+#include <unordered_map>
 int main() {
+
+    AVLTree<Term> words;
+    AVLTree<Term> orgs;
+    AVLTree<Term> people;
+
 
 
     AVLTree<int> tree;
@@ -14,7 +21,7 @@ int main() {
     tree.insert(75);
     tree.insert(70);
 
-    cout << "Hello" << endl;
+
 
     return 0;
 }
