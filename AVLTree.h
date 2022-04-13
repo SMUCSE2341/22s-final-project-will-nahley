@@ -120,11 +120,20 @@ private:
 
     }
 
+    void make_empty(AVLNode<T>*& root) {
+        if (root != nullptr) {
+            make_empty(root->right);
+            make_empty(root->left);
+            delete root;
+        }
+        root = nullptr;
+    }
+
 
 public:
     AVLTree<T>() : root(nullptr) {}
     AVLTree<T>(const AVLTree<T> &rhs) : root(nullptr) { *this = rhs; }
-    //~AVLTree<T>() { make_empty(); }
+    ~AVLTree<T>() { make_empty(); }
 
     void insert (const T &x) {
         insert(x, root);
@@ -132,6 +141,10 @@ public:
 
     T& find_node(const T &x) {
         find_node(x, root);
+    }
+
+    void make_empty() {
+        make_empty(root);
     }
 
 
