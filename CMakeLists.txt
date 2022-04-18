@@ -3,4 +3,4 @@ project(22s_final_proj)
 
 set(CMAKE_CXX_STANDARD 17)
 
-add_executable(22s_final_proj main.cpp AVLTree.h Term.cpp Term.h Parser.cpp Parser.h file_cleanup/stop_words.txt file_cleanup/porter2_stemmer-master/porter2_stemmer.h file_cleanup/porter2_stemmer-master/util/hash.h file_cleanup/porter2_stemmer-master/util/string_view.h)
+add_executable(22s_final_proj main.cpp AVLTree.h Term.cpp Term.h Parser.cpp Parser.h file_cleanup/stop_words.txt file_cleanup/porter2_stemmer-master/porter2_stemmer.h file_cleanup/porter2_stemmer-master/porter2_stemmer.cpp file_cleanup/porter2_stemmer-master/util/hash.h file_cleanup/porter2_stemmer-master/util/string_view.h)

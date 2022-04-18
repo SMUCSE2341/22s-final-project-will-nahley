@@ -34,7 +34,11 @@ void Parser::generate_stop_words() {
 
 void Parser::clean_document(std::string path) {
 
-    ifstream in(path);
+
+    /*ifstream in(filename_vector[0]);
+    if (!in.is_open()) {
+        cout << "Not open" << endl;
+    }
     string to_stem;
     string stemmed;
     bool mistake = false;
@@ -43,7 +47,7 @@ void Parser::clean_document(std::string path) {
         Porter2Stemmer::trim(to_stem);
         Porter2Stemmer::stem(to_stem);
         if (to_stem != stemmed) {
-            cout << " incorrect" << endl;
+            cout << "INCORRECT" << endl;
             cout << "to stem: " << orig << endl;
             cout << "stemmed: " << to_stem << endl;
             cout << "expected: " << stemmed << endl;
@@ -52,11 +56,11 @@ void Parser::clean_document(std::string path) {
 
         if (!mistake)
             cout << "Passed all tests!" << endl;
-        cout << "Hello" << endl;
+            cout << endl;
 
     }
 
-    cout << "hello" << endl;
+    cout << "hello" << endl;*/
 
 }
 
