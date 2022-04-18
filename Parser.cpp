@@ -34,11 +34,33 @@ void Parser::generate_stop_words() {
 
 void Parser::clean_document(std::string path) {
 
-    /*FILE * f = fopen(path.c_str(), "r");
+    ifstream in(path);
+    string to_stem;
+    string stemmed;
+    bool mistake = false;
+    while (in >> to_stem >> stemmed) {
+        string orig = to_stem;
+        Porter2Stemmer::trim(to_stem);
+        Porter2Stemmer::stem(to_stem);
+        if (to_stem != stemmed) {
+            cout << " incorrect" << endl;
+            cout << "to stem: " << orig << endl;
+            cout << "stemmed: " << to_stem << endl;
+            cout << "expected: " << stemmed << endl;
+            mistake = true;
+        }
 
+        if (!mistake)
+            cout << "Passed all tests!" << endl;
+        cout << "Hello" << endl;
 
-    stemfile(f);
-    cout << "hello" << endl;*/
+    }
+
+    cout << "hello" << endl;
+
+}
+
+void Parser::output_docIDs(std::string term) {
 
 }
 

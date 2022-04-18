@@ -6,7 +6,7 @@
 #include "AVLTree.h"
 #include "Term.h"
 #include <fstream>
-#include "file_cleanup/porter_stemmer.cpp"
+#include "file_cleanup/porter2_stemmer-master/porter2_stemmer.h"
 
 class Parser {
 public:
@@ -15,7 +15,8 @@ public:
     void generate_stop_words();
     void clean_document(std::string path);
 
-    void print_stop_words();
+    void output_docIDs(std::string term);
+
 
 private:
     std::string path;
