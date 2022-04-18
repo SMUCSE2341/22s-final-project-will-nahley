@@ -15,7 +15,8 @@ public:
     void generate_filenames();
     void generate_stop_words();
     void clean_document(rapidjson::Document& d);
-    std::string remove_stopwords(rapidjson::Document& d);
+    std::string make_lowercase(rapidjson::Document& d);
+    vector<string> word_vec(string& text);
     void print_document_data();
 
     void output_docIDs(std::string term);

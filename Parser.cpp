@@ -2,6 +2,8 @@
 #include <filesystem>
 #include <iostream>
 
+// efficiently split string into words - https://www.geeksforgeeks.org/split-a-sentence-into-words-in-cpp/
+
 using namespace std;
 namespace fs = std::filesystem;
 
@@ -34,42 +36,24 @@ void Parser::generate_stop_words() {
 
 void Parser::clean_document(rapidjson::Document& d) {
 
-    string t = remove_stopwords(d);
-    cout << t << endl << endl << endl;
 
 
+    string t = make_lowercase(d);
+    //cout << t << endl << endl << endl;
+    vector<string> vec = word_vec(t);
+    cout << "hello" << endl;
 
-    /*ifstream in(filename_vector[0]);
-    if (!in.is_open()) {
-        cout << "Not open" << endl;
-    }
-    string to_stem;
-    string stemmed;
-    bool mistake = false;
-    while (in >> to_stem >> stemmed) {
-        string orig = to_stem;
-        Porter2Stemmer::trim(to_stem);
-        Porter2Stemmer::stem(to_stem);
-        if (to_stem != stemmed) {
-            cout << "INCORRECT" << endl;
-            cout << "to stem: " << orig << endl;
-            cout << "stemmed: " << to_stem << endl;
-            cout << "expected: " << stemmed << endl;
-            mistake = true;
-        }
+    /// THE PLAN
+    // SEPARATE TEXT INTO A VECTOR OF WORDS
+    // REMOVE ANY WORDS THAT ARE STOP WORDS (HASH TABLE?)
+    // STEM ALL WORDS
+    // COMBINE BACK INTO TEXT
 
-        if (!mistake)
-            cout << "Passed all tests!" << endl;
-            cout << endl;
-
-    }
-
-    cout << "hello" << endl;*/
 
 }
 
 
-string Parser::remove_stopwords(rapidjson::Document& d) {
+string Parser::make_lowercase(rapidjson::Document& d) {
     string text = d["text"].GetString();
     for (int i = 0; i < text.size(); i++) {
         if (text[i] >= 65 && text[i] <= 90) {
@@ -77,6 +61,23 @@ string Parser::remove_stopwords(rapidjson::Document& d) {
         }
     }
     return text;
+}
+
+vector<string> Parser::word_vec(string &text) {
+    vector<string> word_vec;
+    string word = "";
+    for (int i = 0; i < text.size(); i++) {
+        if (text[i] == ' ') {
+            //CHECK IF WORD IS STOP WORD?
+            Porter2Stemmer::trim(word);
+            Porter2Stemmer::stem(word);
+            word_vec.push_back(word);
+            word = "";
+        } else {
+            word += text[i];
+        }
+    }
+    return word_vec;
 }
 
 void Parser::print_document_data() {
