@@ -7,13 +7,16 @@
 #include "Term.h"
 #include <fstream>
 #include "file_cleanup/porter2_stemmer-master/porter2_stemmer.h"
+#include "rapidjson/document.h"
 
 class Parser {
 public:
     Parser(std::string path);
     void generate_filenames();
     void generate_stop_words();
-    void clean_document(std::string path);
+    void clean_document(rapidjson::Document& d);
+    std::string remove_stopwords(rapidjson::Document& d);
+    void print_document_data();
 
     void output_docIDs(std::string term);
 
