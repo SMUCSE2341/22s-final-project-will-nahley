@@ -38,10 +38,6 @@ unordered_map
 algorithm
 -
 
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Term.cpp
-Term.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Term.h
-
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Term.h
 vector
 -
@@ -49,16 +45,6 @@ string
 -
 iostream
 -
-
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/file_cleanup/porter2_stemmer-master/porter2_stemmer.cpp
-algorithm
--
-utility
--
-unordered_map
--
-porter2_stemmer.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/file_cleanup/porter2_stemmer-master/porter2_stemmer.h
 
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/file_cleanup/porter2_stemmer-master/porter2_stemmer.h
 vector

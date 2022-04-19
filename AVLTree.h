@@ -113,14 +113,15 @@ private:
         }
 
         if (x < t->element) {
-            find_node(x, t->left);
+            return find_node(x, t->left);
         } else if (t->element < x) {
-            find_node(x, t->right);
+            return find_node(x, t->right);
         } else if (t->element == x) {
             return t;
         }
 
     }
+
 
     void make_empty(AVLNode<T>*& root) {
         if (root != nullptr) {
@@ -128,7 +129,7 @@ private:
             make_empty(root->left);
             delete root;
         }
-        root = nullptr;
+
     }
 
     bool contains(T& x, AVLNode<T>* &t) {
@@ -137,9 +138,9 @@ private:
 
 
         if (x < t->element) {
-            contains(x, t->left);
+            return contains(x, t->left);
         } else if (t->element < x) {
-            contains(x, t->right);
+            return contains(x, t->right);
         } else if (t->element == x) {
             return true;
         }
@@ -159,8 +160,9 @@ public:
     }
 
     AVLNode<T>*& find_node(T &x) {
-        find_node(x, root);
+        return find_node(x, root);
     }
+
 
     void make_empty() {
         make_empty(root);

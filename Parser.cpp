@@ -139,10 +139,12 @@ vector<string> Parser::get_documents(string word) {
 
     vector<string> doc_vec;
 
+    cout << "The term '" << word << "' appears in document(s):" << endl;
     Porter2Stemmer::trim(word);
     Porter2Stemmer::stem(word);
     Term t(word);
     AVLNode<Term>* node = word_tree.find_node(t);
+
     if (node == nullptr) {
         cout << "Could not find: " << word << endl;
         return doc_vec;
