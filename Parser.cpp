@@ -4,7 +4,6 @@
 
 // efficiently split string into words - https://www.geeksforgeeks.org/split-a-sentence-into-words-in-cpp/
 // std::binary_search - https://en.cppreference.com/w/cpp/algorithm/binary_search
-// lowercase -
 
 using namespace std;
 namespace fs = std::filesystem;
@@ -44,21 +43,17 @@ void Parser::generate_stop_words() {
 // then adds those words to the AVL Tree
 void Parser::clean_document(rapidjson::Document& d) {
 
-
-
-    /*string t = make_lowercase(d);
-    cout << t << endl << endl << endl;
-    vector<string> vec = word_vec(t);*/
-
     string text = d["text"].GetString();
-    vector<string> stemmed_words = word_vec(text);
-    string id = d["uuid"].GetString();
-    insert_words(stemmed_words, id);
+    // "text" represents the actual article itself with no metadata
 
-    /// THE PLAN
-    // SEPARATE TEXT INTO A VECTOR OF WORDS - DONE
-    // REMOVE ANY WORDS THAT ARE STOP WORDS (HASH TABLE?)
-    // STEM ALL WORDS - DONE
+    vector<string> stemmed_words = word_vec(text);
+    //"stemmed words" will house the words of the text after using the porter stemmer
+
+    string id = d["uuid"].GetString();
+    //"id" is just the document id associated with the document
+
+    insert_words(stemmed_words, id);
+    //insert words puts all of the words into the AVL tree
 
 
 }
@@ -88,15 +83,17 @@ vector<string> Parser::word_vec(string &text) {
 
 bool Parser::is_stopword(const vector<string>& vec, const string word) {
     //BINARY SEARCH
-    //bool is_stopword = std::binary_search(vec.begin(), vec.end(), word);
+    bool is_stopword = std::binary_search(vec.begin(), vec.end(), word);
 
-    for (int i = 0; i < stop_words.size(); i++) {
+    return is_stopword;
+
+    /*for (int i = 0; i < stop_words.size(); i++) {
         string cur_word = stop_words[i];
         if (word + '\r' == cur_word) {
             return true;
         }
     }
-    return false;
+    return false;*/
 
 }
 
@@ -120,7 +117,7 @@ void Parser::insert_words(vector<string>& words, string& id) {
 
 }
 
-vector<string> Parser::get_documents(string word) {
+vector<string>& Parser::get_documents(string word) {
 
     //To clean docs and add to AVL
     for (int i = 0; i < filename_vector.size(); i++) {
@@ -150,8 +147,8 @@ vector<string> Parser::get_documents(string word) {
         return doc_vec;
 
     }
-    doc_vec = node->element.get_IDs();
-    return doc_vec;
+    return node->element.get_IDs();
+
 }
 
 ///OUTPUTTING DATA

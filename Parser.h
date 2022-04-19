@@ -25,7 +25,7 @@ public:
 
     //To add to AVL Tree
     void insert_words(vector<string>& words, string& id);
-    vector<string> get_documents(string word);
+    vector<string>& get_documents(string word);
 
     //For outputting data
     void print_document_data();

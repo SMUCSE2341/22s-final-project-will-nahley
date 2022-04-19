@@ -29,7 +29,7 @@ bool Term::contains(string& docID) {
     return false;
 }
 
-vector<string> Term::get_IDs() {
+vector<string>& Term::get_IDs() {
     return documents_vector;
 }
 

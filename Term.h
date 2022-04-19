@@ -14,7 +14,7 @@ public:
     bool operator<(const Term& T);
 
     bool contains(string& docID);
-    vector<string> get_IDs();
+    vector<string>& get_IDs();
     void output_IDs();
 
 private:
