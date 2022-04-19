@@ -37,7 +37,7 @@ private:
 
     }
 
-    void insert(const T& x, AVLNode<T>*& t) {
+    void insert(T& x, AVLNode<T>*& t) {
         if (t == nullptr) {
             t = new AVLNode<T> {x, nullptr, nullptr};
         }
@@ -106,16 +106,18 @@ private:
         rotateWithRightChild(k3);
     }
 
-    T& find_node(const T &x, AVLNode<T>*& t) {
+    AVLNode<T>*& find_node(T &x, AVLNode<T>*& t) {
 
-        assert(t != nullptr);
+        if (t == nullptr) {
+            return t;
+        }
 
         if (x < t->element) {
             find_node(x, t->left);
         } else if (t->element < x) {
             find_node(x, t->right);
         } else if (t->element == x) {
-            return t->element;
+            return t;
         }
 
     }
@@ -129,22 +131,43 @@ private:
         root = nullptr;
     }
 
+    bool contains(T& x, AVLNode<T>* &t) {
+        if (t == nullptr)
+            return false;
+
+
+        if (x < t->element) {
+            contains(x, t->left);
+        } else if (t->element < x) {
+            contains(x, t->right);
+        } else if (t->element == x) {
+            return true;
+        }
+
+        return false;
+
+    }
+
 
 public:
     AVLTree<T>() : root(nullptr) {}
     AVLTree<T>(const AVLTree<T> &rhs) : root(nullptr) { *this = rhs; }
     ~AVLTree<T>() { make_empty(); }
 
-    void insert (const T &x) {
+    void insert (T &x) {
         insert(x, root);
     }
 
-    T& find_node(const T &x) {
+    AVLNode<T>*& find_node(T &x) {
         find_node(x, root);
     }
 
     void make_empty() {
         make_empty(root);
+    }
+
+    bool contains(T& x) {
+        return contains(x, root);
     }
 
 
