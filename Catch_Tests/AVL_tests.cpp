@@ -1,5 +1,5 @@
 #include "../catch.hpp"
-#include "../AVLTree.h"
+#include "../data_structures/AVLTree.h"
 
 TEST_CASE("AVL Tree Implementation") {
 

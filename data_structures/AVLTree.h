@@ -1,4 +1,3 @@
-
 #ifndef INC_22S_FINAL_PROJ_AVLTREE_H
 #define INC_22S_FINAL_PROJ_AVLTREE_H
 
@@ -46,14 +45,7 @@ private:
         } else if (t->element < x) {
             insert(x, t->right);
         }
-
-        // TODO: HANDLE DUPLICATES
-        /*else if (x == t->element) {
-            return;
-        }*/
-
         balance(t);
-
     }
 
     void balance(AVLNode<T>* & t) {
@@ -136,7 +128,6 @@ private:
         if (t == nullptr)
             return false;
 
-
         if (x < t->element) {
             return contains(x, t->left);
         } else if (t->element < x) {
@@ -171,9 +162,6 @@ public:
     bool contains(T& x) {
         return contains(x, root);
     }
-
-
-
 };
 
 

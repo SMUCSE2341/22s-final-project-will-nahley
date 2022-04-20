@@ -8,7 +8,7 @@
 class Term {
 public:
     Term(std::string term);
-    void add_document(string current_doc_number);
+    void add_document(string &current_doc_number);
 
     bool operator==(const Term& T);
     bool operator<(const Term& T);
