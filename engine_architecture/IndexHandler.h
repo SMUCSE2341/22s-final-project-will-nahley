@@ -4,15 +4,15 @@
 #include <vector>
 #include <string>
 #include <iostream>
-#include "data_structures/AVLTree.h"
-#include "data_structures/HashTable.h"
-#include "Term.h"
+#include "../data_structures/AVLTree.h"
+#include "../data_structures/HashTable.h"
+#include "../Term.h"
 #include "Parser.h"
 #include <chrono>
 
 class IndexHandler {
 public:
-    IndexHandler(char* search_string, char* search_path);
+    IndexHandler(string search_string,string search_path);
     void generate_filenames();
 
     //Populates AVL Tree

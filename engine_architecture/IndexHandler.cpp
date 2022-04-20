@@ -4,19 +4,15 @@
 using namespace std;
 namespace fs = std::filesystem;
 
-IndexHandler::IndexHandler(char *search_string, char *search_path) {
+IndexHandler::IndexHandler(string search_string, string search_path) {
     this->search_string = search_string;
     //TODO: Make sure Query Processor can pass in the correct format
     Porter2Stemmer::trim(this->search_string);
     Porter2Stemmer::stem(this->search_string);
     this->search_path = search_path;
     generate_filenames();
-        std::chrono::time_point<std::chrono::high_resolution_clock> start, end;
-        start = std::chrono::high_resolution_clock::now();
     populate_tree();
-        end = std::chrono::high_resolution_clock::now();
-        std::chrono::duration<double> t = end - start;
-        cout << std::fixed << t.count() << std::endl;
+
 
 
 }
@@ -49,12 +45,16 @@ void IndexHandler::add_terms(std::vector<std::string> &stemmed_words, std::strin
 }
 
 void IndexHandler::populate_tree() {
-
     Parser p(search_path);
+
+
     for (int i = 0; i < filename_vec.size(); i++) {
         string cur_docID;
+
         vector<string> cur_text = p.get_doc_info(filename_vec[i], cur_docID);
+
         add_terms(cur_text, cur_docID);
+
 
     }
 

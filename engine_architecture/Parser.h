@@ -2,11 +2,11 @@
 #define INC_22S_FINAL_PROJ_PARSER_H
 #include <string>
 #include <vector>
-#include "data_structures/AVLTree.h"
-#include "Term.h"
+#include "../data_structures/AVLTree.h"
+#include "../Term.h"
 #include <fstream>
-#include "file_cleanup/porter2_stemmer-master/porter2_stemmer.h"
-#include "rapidjson/document.h"
+#include "../file_cleanup/porter2_stemmer-master/porter2_stemmer.h"
+#include "../rapidjson/document.h"
 #include <unordered_map>
 #include <algorithm>
 #include <chrono>
