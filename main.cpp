@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
 
     string search_path = "/mnt/c/Users/wnahl/sample_data_sets/size-221";
     string search_term = "OR facebook instagram NOT bankruptcy ORG snap PERSON cramer";
-
+    //string search_term = "AND facebook instagram NOT tom";
     QueryProcessor query(search_term);
     cout << "Hello" << endl;
 
