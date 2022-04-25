@@ -3,6 +3,8 @@
 
 #include <vector>
 #include <string>
+#include <set>
+#include "IndexHandler.h"
 
 class QueryProcessor {
 public:
@@ -10,20 +12,23 @@ public:
     enum QUERY_TYPE {AND, OR}; //If neither is selected (1 term), then assume AND although it doesn't matter
 
     //Processor Initialization
-    QueryProcessor(std::string search_term);
+    QueryProcessor(std::string search_term, std::string search_path);
     void get_type();
 
     //Query parsing
     void parse_search();
-    std::string& tolower(std::string& str);
 
     void populate_vectors();
     void populate_not(int& i);
     void populate_person(int& i);
     void populate_org(int& i);
 
+    //Configure Sets
+    void generate_sets();
+
 private:
     std::string search_term;
+    std::string search_path;
 
     std::vector<std::string> all_words_vector;
 

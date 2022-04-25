@@ -14,9 +14,9 @@ using namespace std;
 int main(int argc, char** argv) {
 
     string search_path = "/mnt/c/Users/wnahl/sample_data_sets/size-221";
-    string search_term = "OR facebook instagram NOT bankruptcy ORG snap PERSON cramer";
+    string search_term = "AND financial account ledger PERSON cramer ORG fidelity";
     //string search_term = "AND facebook instagram NOT tom";
-    QueryProcessor query(search_term);
+    QueryProcessor query(search_term, search_path);
     cout << "Hello" << endl;
 
     /*std::chrono::time_point<std::chrono::high_resolution_clock> start, end;

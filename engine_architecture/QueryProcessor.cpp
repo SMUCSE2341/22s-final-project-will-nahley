@@ -1,11 +1,15 @@
 #include "QueryProcessor.h"
 
+// https://en.cppreference.com/w/cpp/algorithm/set_union
+// https://en.cppreference.com/w/cpp/algorithm/set_intersection
+
 using namespace std;
 
 ///INITIALIZING THE PROCESSOR
 
-QueryProcessor::QueryProcessor(std::string search_term) {
+QueryProcessor::QueryProcessor(std::string search_term, std::string search_path) {
     this->search_term = search_term;
+    this->search_path = search_path;
     parse_search();
     get_type();
     populate_vectors();
@@ -112,4 +116,26 @@ void QueryProcessor::populate_org(int &i) {
             return;
         }
     }
+}
+
+void QueryProcessor::generate_sets() {
+
+    vector<string> set;
+    if (!and_vector.empty()) {
+        IndexHandler h1(and_vector[0], search_path);
+        vector<string> vector1 = h1.get_correct_documents();
+        std::sort(vector1.begin(), vector1.end());
+
+        for (int i = 1; i < and_vector.size(); i++) {
+            IndexHandler h2(and_vector[i], search_path);
+            vector<string> vector2 = h2.get_correct_documents();
+            std::sort(vector2.begin(), vector2.end());
+            std::set_intersection(vector1.begin(),vector1.end(), vector2.begin(), vector2.end(), std::back_inserter(set));
+        }
+
+
+    } else if (!or_vector.empty()) {
+
+    }
+
 }

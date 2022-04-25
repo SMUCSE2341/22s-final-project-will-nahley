@@ -14,7 +14,6 @@ IndexHandler::IndexHandler(string search_string, string search_path) {
     populate_tree();
 
 
-
 }
 
 void IndexHandler::generate_filenames() {
@@ -47,17 +46,12 @@ void IndexHandler::add_terms(std::vector<std::string> &stemmed_words, std::strin
 void IndexHandler::populate_tree() {
     Parser p(search_path);
 
-
     for (int i = 0; i < filename_vec.size(); i++) {
         string cur_docID;
-
         vector<string> cur_text = p.get_doc_info(filename_vec[i], cur_docID);
-
         add_terms(cur_text, cur_docID);
 
-
     }
-
 }
 
 vector<string> IndexHandler::get_correct_documents() {
