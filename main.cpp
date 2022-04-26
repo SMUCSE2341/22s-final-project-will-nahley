@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
     tree.printIO(out);
     out << endl;*/
 
-    Term t ("Hello");
+    /*Term t ("Hello");
 
     string s1 = "123";
     string s2 = "234";
@@ -39,20 +39,18 @@ int main(int argc, char** argv) {
     t.add_document(s1);
     t.add_document(s2);
     t.add_document(s3);
-    cout << t << endl;
+    cout << t << endl;*/
+
+
+    std::ifstream in("/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/PersistenceIndex.txt", ios::app);
 
 
 
 
-
-    /*string search_path = "/mnt/c/Users/wnahl/sample_data_sets/size-221";
-    string search_term = "AND financial account ledger PERSON cramer ORG fidelity";
+    string search_path = "/mnt/c/Users/wnahl/sample_data_sets/size-10";
+    string search_term = "financial";
     //string search_term = "AND facebook instagram NOT tom";
     QueryProcessor query(search_term, search_path);
-    cout << "Hello" << endl;*/
-
-    /*std::chrono::time_point<std::chrono::high_resolution_clock> start, end;
-    start = std::chrono::high_resolution_clock::now();
 
     IndexHandler index_handler (search_term, search_path);
     vector<string> ids = index_handler.get_correct_documents();
@@ -60,9 +58,7 @@ int main(int argc, char** argv) {
         cout << (i + 1) << ": " << ids[i] << endl;
     }
 
-    end = std::chrono::high_resolution_clock::now();
-    std::chrono::duration<double> t = end - start;
-    cout << std::fixed << t.count() << std::endl;*/
+
 
     return 0;
 }

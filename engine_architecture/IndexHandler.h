@@ -32,6 +32,8 @@ private:
 
     AVLTree<Term> terms_tree;
 
+    std::string persistence_filepath = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/PersistenceIndex.txt";
+
 
 };
 

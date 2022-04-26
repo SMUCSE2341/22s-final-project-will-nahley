@@ -4,6 +4,8 @@
 using namespace std;
 namespace fs = std::filesystem;
 
+//Check to see if file is empty - https://stackoverflow.com/questions/2390912/checking-for-an-empty-file-in-c
+
 IndexHandler::IndexHandler(string search_string, string search_path) {
     this->search_string = search_string;
     //TODO: Make sure Query Processor can pass in the correct format
@@ -11,7 +13,7 @@ IndexHandler::IndexHandler(string search_string, string search_path) {
     Porter2Stemmer::stem(this->search_string);
     this->search_path = search_path;
     generate_filenames();
-    populate_tree();
+    //populate_tree();
 
 
 }
@@ -52,23 +54,44 @@ void IndexHandler::populate_tree() {
         add_terms(cur_text, cur_docID);
 
     }
+
+    std::ofstream out(persistence_filepath, ios::out); //CHANGE THIS FOR TESTING
+    if (!out.is_open()) {
+        cout << "Not open.." << endl;
+    }
+
+    int i = 1;
+    terms_tree.printIO(out, i);
+
 }
 
 vector<string> IndexHandler::get_correct_documents() {
     vector<string> doc_vec;
 
     cout << "The term '" << search_string << "' appears in document(s):" << endl;
-    Porter2Stemmer::trim(search_string);
-    Porter2Stemmer::stem(search_string);
-    Term t(search_string);
-    AVLNode<Term>* node = terms_tree.find_node(t);
 
-    if (node == nullptr) {
-        cout << "Could not find: " << search_string << endl;
+
+    std::ifstream in(persistence_filepath);
+    if (in.peek() == std::ifstream::traits_type::eof()) { //This is the case where the persistence index is empty
+        populate_tree();
+        Porter2Stemmer::trim(search_string);
+        Porter2Stemmer::stem(search_string);
+        Term t(search_string);
+        AVLNode<Term>* node = terms_tree.find_node(t);
+
+        if (node == nullptr) {
+            cout << "Could not find: " << search_string << endl;
+            return doc_vec;
+
+        }
+        return node->element.get_IDs();
+
+    } else {
+        doc_vec.push_back("HELLO");
         return doc_vec;
-
     }
-    return node->element.get_IDs();
+
+
 }
 
 vector<string> IndexHandler::get_org_documents() {

@@ -45,10 +45,10 @@ void Term::output_IDs() {
 
 ostream& operator<<(ostream& out, Term& t) {
     out << t.get_term() << " ";
-    for (int i = 0; i < t.get_IDs().size() - 1; i++) {
+    for (int i = 0; i < t.get_IDs().size(); i++) {
         out << t.get_IDs()[i] << " ";
     }
-    out << t.get_IDs()[t.get_IDs().size() - 1];
+    out << endl;
 
 }
 

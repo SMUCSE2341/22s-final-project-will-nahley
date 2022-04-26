@@ -6,6 +6,7 @@
 #include <iostream>
 #include <fstream>
 // Weiss AVL Implementation - http://www.uoitc.edu.iq/images/documents/informatics-institute/Competitive_exam/DataStructures.pdf
+// https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
 
 using namespace std;
 
@@ -142,15 +143,16 @@ private:
 
     }
 
-    void printIO(AVLNode<T>* x, std::ofstream& out) { //In order traversal
+    void printIO(AVLNode<T>* x, std::ofstream& out, int& i) { //In order traversal
         if (x == nullptr)
             return;
 
-        printIO(x->left, out);
+        printIO(x->left, out, i);
 
-        out << x->element << " ";
+        out << i << " " << x->element;
+        i++;
 
-        printIO(x->right, out);
+        printIO(x->right, out, i);
 
 
     }
@@ -178,8 +180,8 @@ public:
         return contains(x, root);
     }
 
-    void printIO(std::ofstream& out) {
-        return printIO(root, out);
+    void printIO(std::ofstream& out, int& i) {
+        return printIO(root, out, i);
     }
 
 };
