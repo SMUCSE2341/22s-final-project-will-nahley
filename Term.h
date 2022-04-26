@@ -13,9 +13,13 @@ public:
     bool operator==(const Term& T);
     bool operator<(const Term& T);
 
+
     bool contains(string& docID);
     vector<string>& get_IDs();
+    std::string& get_term();
     void output_IDs();
+
+    friend ostream& operator<<(ostream& out, Term& t);
 
 private:
     std::vector<string> documents_vector;

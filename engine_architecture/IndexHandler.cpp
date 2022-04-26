@@ -71,6 +71,14 @@ vector<string> IndexHandler::get_correct_documents() {
     return node->element.get_IDs();
 }
 
+vector<string> IndexHandler::get_org_documents() {
+    return vector<string>();
+}
+
+vector<string> IndexHandler::get_person_documents() {
+    return vector<string>();
+}
+
 
 
 

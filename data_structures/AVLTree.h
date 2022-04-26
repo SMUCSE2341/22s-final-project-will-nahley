@@ -2,7 +2,9 @@
 #define INC_22S_FINAL_PROJ_AVLTREE_H
 
 #include <cassert>
-
+#include <algorithm>
+#include <iostream>
+#include <fstream>
 // Weiss AVL Implementation - http://www.uoitc.edu.iq/images/documents/informatics-institute/Competitive_exam/DataStructures.pdf
 
 using namespace std;
@@ -66,7 +68,7 @@ private:
             }
         }
 
-        t->height = max(height(t->left), height(t->right));
+        t->height = std::max(height(t->left), height(t->right));
 
     }
 
@@ -140,6 +142,19 @@ private:
 
     }
 
+    void printIO(AVLNode<T>* x, std::ofstream& out) { //In order traversal
+        if (x == nullptr)
+            return;
+
+        printIO(x->left, out);
+
+        out << x->element << " ";
+
+        printIO(x->right, out);
+
+
+    }
+
 
 public:
     AVLTree<T>() : root(nullptr) {}
@@ -162,6 +177,11 @@ public:
     bool contains(T& x) {
         return contains(x, root);
     }
+
+    void printIO(std::ofstream& out) {
+        return printIO(root, out);
+    }
+
 };
 
 

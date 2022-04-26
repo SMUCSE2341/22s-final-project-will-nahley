@@ -26,6 +26,7 @@ public:
     //Configure Sets
     void generate_sets();
 
+
 private:
     std::string search_term;
     std::string search_path;

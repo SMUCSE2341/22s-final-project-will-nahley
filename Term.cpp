@@ -33,10 +33,23 @@ vector<string>& Term::get_IDs() {
     return documents_vector;
 }
 
+std::string& Term::get_term() {
+    return term;
+}
+
 void Term::output_IDs() {
     for (int i = 0; i < documents_vector.size(); i++) {
         std::cout << documents_vector[i] << std::endl;
     }
+}
+
+ostream& operator<<(ostream& out, Term& t) {
+    out << t.get_term() << " ";
+    for (int i = 0; i < t.get_IDs().size() - 1; i++) {
+        out << t.get_IDs()[i] << " ";
+    }
+    out << t.get_IDs()[t.get_IDs().size() - 1];
+
 }
 
 
