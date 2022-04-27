@@ -31,8 +31,12 @@ private:
     vector<string> filename_vec;
 
     AVLTree<Term> terms_tree;
+    AVLTree<Term> org_tree;
+    AVLTree<Term> person_tree;
 
-    std::string persistence_filepath = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/PersistenceIndex.txt";
+    std::string persistence_filepath;
+    std::string org_filepath;
+    std::string person_filepath;
 
 
 };

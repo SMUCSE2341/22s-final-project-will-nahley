@@ -144,13 +144,12 @@ private:
 
     }
 
-    void printIO(AVLNode<T>* x, std::ofstream& out) { //In order traversal
-        if (x == nullptr)
-            return;
-
-        printIO(x->left, out);
-        out << " " << x->element;
-        printIO(x->right, out);
+    void printIO(AVLNode<T>*& x, std::ofstream& out) { //In order traversal
+        if (x != nullptr) {
+            printIO(x->left, out);
+            out << x->element;
+            printIO(x->right, out);
+        }
 
     }
 

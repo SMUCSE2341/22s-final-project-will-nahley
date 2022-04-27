@@ -25,6 +25,18 @@ fstream
 -
 
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/data_structures/HashTable.h
+list
+-
+string
+-
+vector
+-
+
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/IndexHandler.cpp
+IndexHandler.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/IndexHandler.h
+filesystem
+-
 
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/IndexHandler.h
 vector
@@ -42,6 +54,14 @@ iostream
 Parser.h
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/Parser.h
 chrono
+-
+
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/Parser.cpp
+Parser.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/Parser.h
+filesystem
+-
+iostream
 -
 
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/Parser.h
@@ -65,6 +85,10 @@ algorithm
 -
 chrono
 -
+
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/QueryProcessor.cpp
+QueryProcessor.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/QueryProcessor.h
 
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/QueryProcessor.h
 vector

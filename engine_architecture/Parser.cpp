@@ -79,7 +79,8 @@ vector<string> Parser::get_doc_info(string filepath, string& id) {
     rapidjson::Document d;
     d.Parse(whole_file.c_str());
 
-    id = d["uuid"].GetString();
+    id = filepath;
+    //id = d["uuid"].GetString();
     string text = d["text"].GetString();
     vector<string> clean_text = word_vec(text);
     return clean_text;

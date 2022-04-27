@@ -8,7 +8,7 @@ Term::Term(std::string term) {
     this->term = term;
 }
 
-void Term::add_document(string &current_doc_number) {
+void Term::add_document(string current_doc_number) {
     documents_vector.push_back(current_doc_number);
 }
 
@@ -49,7 +49,7 @@ ostream& operator<<(ostream& out, Term& t) {
         out << t.get_IDs()[i] << " ";
     }
     out << endl;
-
+    return out;
 }
 
 

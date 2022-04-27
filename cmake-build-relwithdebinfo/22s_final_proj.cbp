@@ -109,9 +109,6 @@
 		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/Parser.h">
 			<Option target="22s_final_proj"/>
 		</Unit>
-		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/PersistenceIndex.txt">
-			<Option target="22s_final_proj"/>
-		</Unit>
 		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/QueryProcessor.cpp">
 			<Option target="22s_final_proj"/>
 		</Unit>
@@ -134,6 +131,9 @@
 			<Option target="22s_final_proj"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/main.cpp">
+			<Option target="22s_final_proj"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/PersistenceIndex.txt">
 			<Option target="22s_final_proj"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/CMakeLists.txt">

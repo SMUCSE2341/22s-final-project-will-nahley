@@ -7,68 +7,19 @@
 #include <iostream>
 #include <vector>
 #include <functional>
+#include "engine_architecture/SearchEngine.h"
 #include <chrono>
 
 using namespace std;
 
 int main(int argc, char** argv) {
 
+    /*LINUX CD PATH
+    cd /mnt/c/users/wnahl/onedrive/desktop/classwork/'2022 spring'/'cs 2342'/22s-final-project-will-nahley
+    */
 
-    /*AVLTree<int> tree;
-    int arr [4] = {3, 1, 5, 2};
-    for (int i = 0; i < 4; i++) {
-        tree.insert(arr[i]);
-    }*/
-
-
-
-    /*std::ofstream out("/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/PersistenceIndex.txt", ios::app);
-    if (!out.is_open()) {
-        cout << "Not open.." << endl;
-    }
-
-    tree.printIO(out);
-    out << endl;*/
-
-    /*Term t ("Hello");
-
-    string s1 = "123";
-    string s2 = "234";
-    string s3 = "345";
-
-
-    t.add_document(s1);
-    t.add_document(s2);
-    t.add_document(s3);
-    cout << t << endl;*/
-
-
-    std::ifstream in("/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/PersistenceIndex.txt", ios::app);
-
-
-
-
-    string search_path = "/mnt/c/Users/wnahl/sample_data_sets/size-6000";
-    string search_term = "trump";
-
-
-    //string search_term = "AND facebook instagram NOT tom";
-
-
-
-
-    QueryProcessor query(search_term, search_path);
-
-    IndexHandler index_handler (search_term, search_path);
-    vector<string> ids = index_handler.get_correct_documents();
-
-
-    cout << "The term '" << search_term << "' appears in " << ids.size() << " document(s):" << endl;
-    for (int i = 0; i < ids.size(); i++) {
-        cout << (i + 1) << ": " << ids[i] << endl;
-    }
-
-
+    SearchEngine search;
+    search.go();
 
     return 0;
 }

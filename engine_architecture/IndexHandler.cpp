@@ -8,15 +8,15 @@ namespace fs = std::filesystem;
 
 IndexHandler::IndexHandler(string search_string, string search_path) {
     this->search_string = search_string;
-    //TODO: Make sure Query Processor can pass in the correct format
     Porter2Stemmer::trim(this->search_string);
     Porter2Stemmer::stem(this->search_string);
     this->search_path = search_path;
     generate_filenames();
-    //populate_tree();
 
+    persistence_filepath = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/PersistenceIndex.txt";
 
 }
+
 
 void IndexHandler::generate_filenames() {
     for (const auto & entry : fs::recursive_directory_iterator(search_path)){
@@ -68,9 +68,6 @@ void IndexHandler::populate_tree() {
 vector<string> IndexHandler::get_correct_documents() {
     vector<string> doc_vec;
 
-
-
-
     std::ifstream in(persistence_filepath);
     if (in.peek() == std::ifstream::traits_type::eof()) { //This is the case where the persistence index is empty
         populate_tree();
@@ -91,9 +88,12 @@ vector<string> IndexHandler::get_correct_documents() {
             string correct = search_string + " ";
             string line;
             getline(in, line, '\n');
-            string possible = line.substr(1, correct.size());
+            if (line == "") //the bottom line of persistence index, if we hit this point we know we're at eof
+                break;
+
+            string possible = line.substr(0, correct.size());
             if (correct == possible) {
-                int cursor = correct.size() + 1;
+                int cursor = correct.size();
                 string ID = "";
                 while (cursor < line.size()) {
                     if (line[cursor] == ' ') {
@@ -105,17 +105,13 @@ vector<string> IndexHandler::get_correct_documents() {
                         cursor++;
                     }
                 }
-
                 if (ID != "")
                     doc_vec.push_back(ID);
                 break;
             }
-            return doc_vec;
-
         }
+        return doc_vec;
     }
-
-    return doc_vec;
 
 }
 
