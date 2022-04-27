@@ -14,11 +14,12 @@ using namespace std;
 int main(int argc, char** argv) {
 
 
-    AVLTree<int> tree;
-    int arr [8] = {3, 1, 5, 2, 4, -3, 12, -100};
-    for (int i = 0; i < 8; i++) {
+    /*AVLTree<int> tree;
+    int arr [4] = {3, 1, 5, 2};
+    for (int i = 0; i < 4; i++) {
         tree.insert(arr[i]);
-    }
+    }*/
+
 
 
     /*std::ofstream out("/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/PersistenceIndex.txt", ios::app);
@@ -47,13 +48,22 @@ int main(int argc, char** argv) {
 
 
 
-    string search_path = "/mnt/c/Users/wnahl/sample_data_sets/size-10";
-    string search_term = "financial";
+    string search_path = "/mnt/c/Users/wnahl/sample_data_sets/size-6000";
+    string search_term = "trump";
+
+
     //string search_term = "AND facebook instagram NOT tom";
+
+
+
+
     QueryProcessor query(search_term, search_path);
 
     IndexHandler index_handler (search_term, search_path);
     vector<string> ids = index_handler.get_correct_documents();
+
+
+    cout << "The term '" << search_term << "' appears in " << ids.size() << " document(s):" << endl;
     for (int i = 0; i < ids.size(); i++) {
         cout << (i + 1) << ": " << ids[i] << endl;
     }

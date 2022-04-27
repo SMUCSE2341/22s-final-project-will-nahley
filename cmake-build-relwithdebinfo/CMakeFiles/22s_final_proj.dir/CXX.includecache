@@ -6,45 +6,75 @@
 
 #IncludeRegexTransform: 
 
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/AVLTree.h
-cassert
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Term.h
+vector
 -
-
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Parser.cpp
-Parser.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Parser.h
-filesystem
+string
 -
 iostream
 -
 
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Parser.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/data_structures/AVLTree.h
+cassert
+-
+algorithm
+-
+iostream
+-
+fstream
+-
+
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/data_structures/HashTable.h
+
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/IndexHandler.h
+vector
+-
+string
+-
+iostream
+-
+../data_structures/AVLTree.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/data_structures/AVLTree.h
+../data_structures/HashTable.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/data_structures/HashTable.h
+../Term.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Term.h
+Parser.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/Parser.h
+chrono
+-
+
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/Parser.h
 string
 -
 vector
 -
-AVLTree.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/AVLTree.h
-Term.h
+../data_structures/AVLTree.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/data_structures/AVLTree.h
+../Term.h
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Term.h
 fstream
 -
-file_cleanup/porter2_stemmer-master/porter2_stemmer.h
+../file_cleanup/porter2_stemmer-master/porter2_stemmer.h
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/file_cleanup/porter2_stemmer-master/porter2_stemmer.h
-rapidjson/document.h
+../rapidjson/document.h
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/document.h
 unordered_map
 -
 algorithm
 -
+chrono
+-
 
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Term.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/QueryProcessor.h
 vector
 -
 string
 -
-iostream
+set
 -
+IndexHandler.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/IndexHandler.h
 
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/file_cleanup/porter2_stemmer-master/porter2_stemmer.h
 vector
@@ -77,27 +107,25 @@ string
 -
 
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/main.cpp
-iostream
--
-AVLTree.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/AVLTree.h
-term.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/term.h
+data_structures/AVLTree.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/data_structures/AVLTree.h
 rapidjson/document.h
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/document.h
 rapidjson/stringbuffer.h
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/stringbuffer.h
-rapidjson/writer.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/writer.h
-file_cleanup/porter2_stemmer-master/porter2_stemmer.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/file_cleanup/porter2_stemmer-master/porter2_stemmer.h
-cassert
+engine_architecture/Parser.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/Parser.h
+engine_architecture/IndexHandler.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/IndexHandler.h
+engine_architecture/QueryProcessor.h
+/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/QueryProcessor.h
+iostream
 -
 vector
 -
-Parser.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Parser.h
-fstream
+functional
+-
+chrono
 -
 
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/allocators.h
@@ -168,19 +196,7 @@ limits
 intrin.h
 -
 
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/internal/dtoa.h
-itoa.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/internal/itoa.h
-diyfp.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/internal/diyfp.h
-ieee754.h
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/internal/ieee754.h
-
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/internal/ieee754.h
-../rapidjson.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/rapidjson.h
-
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/internal/itoa.h
 ../rapidjson.h
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/rapidjson.h
 
@@ -321,40 +337,4 @@ utility
 -
 internal/stack.h
 /mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/internal/stack.h
-
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/writer.h
-stream.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/stream.h
-internal/clzll.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/internal/clzll.h
-internal/meta.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/internal/meta.h
-internal/stack.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/internal/stack.h
-internal/strfunc.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/internal/strfunc.h
-internal/dtoa.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/internal/dtoa.h
-internal/itoa.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/internal/itoa.h
-stringbuffer.h
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/rapidjson/stringbuffer.h
-new
--
-intrin.h
--
-nmmintrin.h
--
-emmintrin.h
--
-arm_neon.h
--
-
-/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/term.h
-vector
--
-string
--
-iostream
--
 

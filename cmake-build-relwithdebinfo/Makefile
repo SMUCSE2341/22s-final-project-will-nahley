@@ -123,33 +123,6 @@ depend:
 	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/build
 .PHONY : 22s_final_proj/fast
 
-Parser.o: Parser.cpp.o
-
-.PHONY : Parser.o
-
-# target to build an object file
-Parser.cpp.o:
-	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/Parser.cpp.o
-.PHONY : Parser.cpp.o
-
-Parser.i: Parser.cpp.i
-
-.PHONY : Parser.i
-
-# target to preprocess a source file
-Parser.cpp.i:
-	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/Parser.cpp.i
-.PHONY : Parser.cpp.i
-
-Parser.s: Parser.cpp.s
-
-.PHONY : Parser.s
-
-# target to generate assembly for a file
-Parser.cpp.s:
-	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/Parser.cpp.s
-.PHONY : Parser.cpp.s
-
 Term.o: Term.cpp.o
 
 .PHONY : Term.o
@@ -176,6 +149,114 @@ Term.s: Term.cpp.s
 Term.cpp.s:
 	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/Term.cpp.s
 .PHONY : Term.cpp.s
+
+data_structures/HashTable.o: data_structures/HashTable.cpp.o
+
+.PHONY : data_structures/HashTable.o
+
+# target to build an object file
+data_structures/HashTable.cpp.o:
+	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.o
+.PHONY : data_structures/HashTable.cpp.o
+
+data_structures/HashTable.i: data_structures/HashTable.cpp.i
+
+.PHONY : data_structures/HashTable.i
+
+# target to preprocess a source file
+data_structures/HashTable.cpp.i:
+	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.i
+.PHONY : data_structures/HashTable.cpp.i
+
+data_structures/HashTable.s: data_structures/HashTable.cpp.s
+
+.PHONY : data_structures/HashTable.s
+
+# target to generate assembly for a file
+data_structures/HashTable.cpp.s:
+	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.s
+.PHONY : data_structures/HashTable.cpp.s
+
+engine_architecture/IndexHandler.o: engine_architecture/IndexHandler.cpp.o
+
+.PHONY : engine_architecture/IndexHandler.o
+
+# target to build an object file
+engine_architecture/IndexHandler.cpp.o:
+	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.o
+.PHONY : engine_architecture/IndexHandler.cpp.o
+
+engine_architecture/IndexHandler.i: engine_architecture/IndexHandler.cpp.i
+
+.PHONY : engine_architecture/IndexHandler.i
+
+# target to preprocess a source file
+engine_architecture/IndexHandler.cpp.i:
+	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.i
+.PHONY : engine_architecture/IndexHandler.cpp.i
+
+engine_architecture/IndexHandler.s: engine_architecture/IndexHandler.cpp.s
+
+.PHONY : engine_architecture/IndexHandler.s
+
+# target to generate assembly for a file
+engine_architecture/IndexHandler.cpp.s:
+	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.s
+.PHONY : engine_architecture/IndexHandler.cpp.s
+
+engine_architecture/Parser.o: engine_architecture/Parser.cpp.o
+
+.PHONY : engine_architecture/Parser.o
+
+# target to build an object file
+engine_architecture/Parser.cpp.o:
+	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.o
+.PHONY : engine_architecture/Parser.cpp.o
+
+engine_architecture/Parser.i: engine_architecture/Parser.cpp.i
+
+.PHONY : engine_architecture/Parser.i
+
+# target to preprocess a source file
+engine_architecture/Parser.cpp.i:
+	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.i
+.PHONY : engine_architecture/Parser.cpp.i
+
+engine_architecture/Parser.s: engine_architecture/Parser.cpp.s
+
+.PHONY : engine_architecture/Parser.s
+
+# target to generate assembly for a file
+engine_architecture/Parser.cpp.s:
+	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.s
+.PHONY : engine_architecture/Parser.cpp.s
+
+engine_architecture/QueryProcessor.o: engine_architecture/QueryProcessor.cpp.o
+
+.PHONY : engine_architecture/QueryProcessor.o
+
+# target to build an object file
+engine_architecture/QueryProcessor.cpp.o:
+	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.o
+.PHONY : engine_architecture/QueryProcessor.cpp.o
+
+engine_architecture/QueryProcessor.i: engine_architecture/QueryProcessor.cpp.i
+
+.PHONY : engine_architecture/QueryProcessor.i
+
+# target to preprocess a source file
+engine_architecture/QueryProcessor.cpp.i:
+	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.i
+.PHONY : engine_architecture/QueryProcessor.cpp.i
+
+engine_architecture/QueryProcessor.s: engine_architecture/QueryProcessor.cpp.s
+
+.PHONY : engine_architecture/QueryProcessor.s
+
+# target to generate assembly for a file
+engine_architecture/QueryProcessor.cpp.s:
+	$(MAKE) -f CMakeFiles/22s_final_proj.dir/build.make CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.s
+.PHONY : engine_architecture/QueryProcessor.cpp.s
 
 file_cleanup/porter2_stemmer-master/porter2_stemmer.o: file_cleanup/porter2_stemmer-master/porter2_stemmer.cpp.o
 
@@ -240,12 +321,21 @@ help:
 	@echo "... rebuild_cache"
 	@echo "... edit_cache"
 	@echo "... 22s_final_proj"
-	@echo "... Parser.o"
-	@echo "... Parser.i"
-	@echo "... Parser.s"
 	@echo "... Term.o"
 	@echo "... Term.i"
 	@echo "... Term.s"
+	@echo "... data_structures/HashTable.o"
+	@echo "... data_structures/HashTable.i"
+	@echo "... data_structures/HashTable.s"
+	@echo "... engine_architecture/IndexHandler.o"
+	@echo "... engine_architecture/IndexHandler.i"
+	@echo "... engine_architecture/IndexHandler.s"
+	@echo "... engine_architecture/Parser.o"
+	@echo "... engine_architecture/Parser.i"
+	@echo "... engine_architecture/Parser.s"
+	@echo "... engine_architecture/QueryProcessor.o"
+	@echo "... engine_architecture/QueryProcessor.i"
+	@echo "... engine_architecture/QueryProcessor.s"
 	@echo "... file_cleanup/porter2_stemmer-master/porter2_stemmer.o"
 	@echo "... file_cleanup/porter2_stemmer-master/porter2_stemmer.i"
 	@echo "... file_cleanup/porter2_stemmer-master/porter2_stemmer.s"

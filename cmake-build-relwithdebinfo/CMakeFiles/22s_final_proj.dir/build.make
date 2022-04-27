@@ -83,18 +83,18 @@ CMakeFiles/22s_final_proj.dir/Term.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/22s_final_proj.dir/Term.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Term.cpp" -o CMakeFiles/22s_final_proj.dir/Term.cpp.s
 
-CMakeFiles/22s_final_proj.dir/Parser.cpp.o: CMakeFiles/22s_final_proj.dir/flags.make
-CMakeFiles/22s_final_proj.dir/Parser.cpp.o: ../Parser.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/cmake-build-relwithdebinfo/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/22s_final_proj.dir/Parser.cpp.o"
-	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/22s_final_proj.dir/Parser.cpp.o -c "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Parser.cpp"
+CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.o: CMakeFiles/22s_final_proj.dir/flags.make
+CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.o: ../engine_architecture/Parser.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/cmake-build-relwithdebinfo/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_3) "Building CXX object CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.o -c "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/Parser.cpp"
 
-CMakeFiles/22s_final_proj.dir/Parser.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/22s_final_proj.dir/Parser.cpp.i"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Parser.cpp" > CMakeFiles/22s_final_proj.dir/Parser.cpp.i
+CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/Parser.cpp" > CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.i
 
-CMakeFiles/22s_final_proj.dir/Parser.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/22s_final_proj.dir/Parser.cpp.s"
-	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Parser.cpp" -o CMakeFiles/22s_final_proj.dir/Parser.cpp.s
+CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/Parser.cpp" -o CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.s
 
 CMakeFiles/22s_final_proj.dir/file_cleanup/porter2_stemmer-master/porter2_stemmer.cpp.o: CMakeFiles/22s_final_proj.dir/flags.make
 CMakeFiles/22s_final_proj.dir/file_cleanup/porter2_stemmer-master/porter2_stemmer.cpp.o: ../file_cleanup/porter2_stemmer-master/porter2_stemmer.cpp
@@ -109,23 +109,68 @@ CMakeFiles/22s_final_proj.dir/file_cleanup/porter2_stemmer-master/porter2_stemme
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/22s_final_proj.dir/file_cleanup/porter2_stemmer-master/porter2_stemmer.cpp.s"
 	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/file_cleanup/porter2_stemmer-master/porter2_stemmer.cpp" -o CMakeFiles/22s_final_proj.dir/file_cleanup/porter2_stemmer-master/porter2_stemmer.cpp.s
 
+CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.o: CMakeFiles/22s_final_proj.dir/flags.make
+CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.o: ../engine_architecture/IndexHandler.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/cmake-build-relwithdebinfo/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Building CXX object CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.o -c "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/IndexHandler.cpp"
+
+CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/IndexHandler.cpp" > CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.i
+
+CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/IndexHandler.cpp" -o CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.s
+
+CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.o: CMakeFiles/22s_final_proj.dir/flags.make
+CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.o: ../data_structures/HashTable.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/cmake-build-relwithdebinfo/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_6) "Building CXX object CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.o -c "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/data_structures/HashTable.cpp"
+
+CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/data_structures/HashTable.cpp" > CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.i
+
+CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/data_structures/HashTable.cpp" -o CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.s
+
+CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.o: CMakeFiles/22s_final_proj.dir/flags.make
+CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.o: ../engine_architecture/QueryProcessor.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/cmake-build-relwithdebinfo/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_7) "Building CXX object CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.o"
+	/usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.o -c "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/QueryProcessor.cpp"
+
+CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.i"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/QueryProcessor.cpp" > CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.i
+
+CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.s"
+	/usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/QueryProcessor.cpp" -o CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.s
+
 # Object files for target 22s_final_proj
 22s_final_proj_OBJECTS = \
 "CMakeFiles/22s_final_proj.dir/main.cpp.o" \
 "CMakeFiles/22s_final_proj.dir/Term.cpp.o" \
-"CMakeFiles/22s_final_proj.dir/Parser.cpp.o" \
-"CMakeFiles/22s_final_proj.dir/file_cleanup/porter2_stemmer-master/porter2_stemmer.cpp.o"
+"CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.o" \
+"CMakeFiles/22s_final_proj.dir/file_cleanup/porter2_stemmer-master/porter2_stemmer.cpp.o" \
+"CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.o" \
+"CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.o" \
+"CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.o"
 
 # External object files for target 22s_final_proj
 22s_final_proj_EXTERNAL_OBJECTS =
 
 22s_final_proj: CMakeFiles/22s_final_proj.dir/main.cpp.o
 22s_final_proj: CMakeFiles/22s_final_proj.dir/Term.cpp.o
-22s_final_proj: CMakeFiles/22s_final_proj.dir/Parser.cpp.o
+22s_final_proj: CMakeFiles/22s_final_proj.dir/engine_architecture/Parser.cpp.o
 22s_final_proj: CMakeFiles/22s_final_proj.dir/file_cleanup/porter2_stemmer-master/porter2_stemmer.cpp.o
+22s_final_proj: CMakeFiles/22s_final_proj.dir/engine_architecture/IndexHandler.cpp.o
+22s_final_proj: CMakeFiles/22s_final_proj.dir/data_structures/HashTable.cpp.o
+22s_final_proj: CMakeFiles/22s_final_proj.dir/engine_architecture/QueryProcessor.cpp.o
 22s_final_proj: CMakeFiles/22s_final_proj.dir/build.make
 22s_final_proj: CMakeFiles/22s_final_proj.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/cmake-build-relwithdebinfo/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_5) "Linking CXX executable 22s_final_proj"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/cmake-build-relwithdebinfo/CMakeFiles" --progress-num=$(CMAKE_PROGRESS_8) "Linking CXX executable 22s_final_proj"
 	$(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/22s_final_proj.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.

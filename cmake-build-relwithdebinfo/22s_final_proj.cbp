@@ -82,19 +82,40 @@
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/AVLTree.h">
-			<Option target="22s_final_proj"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Parser.cpp">
-			<Option target="22s_final_proj"/>
-		</Unit>
-		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Parser.h">
-			<Option target="22s_final_proj"/>
-		</Unit>
 		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Term.cpp">
 			<Option target="22s_final_proj"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/Term.h">
+			<Option target="22s_final_proj"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/data_structures/AVLTree.h">
+			<Option target="22s_final_proj"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/data_structures/HashTable.cpp">
+			<Option target="22s_final_proj"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/data_structures/HashTable.h">
+			<Option target="22s_final_proj"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/IndexHandler.cpp">
+			<Option target="22s_final_proj"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/IndexHandler.h">
+			<Option target="22s_final_proj"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/Parser.cpp">
+			<Option target="22s_final_proj"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/Parser.h">
+			<Option target="22s_final_proj"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/PersistenceIndex.txt">
+			<Option target="22s_final_proj"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/QueryProcessor.cpp">
+			<Option target="22s_final_proj"/>
+		</Unit>
+		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/engine_architecture/QueryProcessor.h">
 			<Option target="22s_final_proj"/>
 		</Unit>
 		<Unit filename="/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/file_cleanup/porter2_stemmer-master/porter2_stemmer.cpp">

@@ -61,14 +61,14 @@ void IndexHandler::populate_tree() {
     }
 
     int i = 1;
-    terms_tree.printIO(out, i);
+    terms_tree.printIO(out);
 
 }
 
 vector<string> IndexHandler::get_correct_documents() {
     vector<string> doc_vec;
 
-    cout << "The term '" << search_string << "' appears in document(s):" << endl;
+
 
 
     std::ifstream in(persistence_filepath);
@@ -87,10 +87,35 @@ vector<string> IndexHandler::get_correct_documents() {
         return node->element.get_IDs();
 
     } else {
-        doc_vec.push_back("HELLO");
-        return doc_vec;
+        while (!in.eof()) {
+            string correct = search_string + " ";
+            string line;
+            getline(in, line, '\n');
+            string possible = line.substr(1, correct.size());
+            if (correct == possible) {
+                int cursor = correct.size() + 1;
+                string ID = "";
+                while (cursor < line.size()) {
+                    if (line[cursor] == ' ') {
+                        doc_vec.push_back(ID);
+                        ID = "";
+                        cursor++;
+                    } else {
+                        ID += line[cursor];
+                        cursor++;
+                    }
+                }
+
+                if (ID != "")
+                    doc_vec.push_back(ID);
+                break;
+            }
+            return doc_vec;
+
+        }
     }
 
+    return doc_vec;
 
 }
 

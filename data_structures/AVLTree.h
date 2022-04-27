@@ -6,7 +6,8 @@
 #include <iostream>
 #include <fstream>
 // Weiss AVL Implementation - http://www.uoitc.edu.iq/images/documents/informatics-institute/Competitive_exam/DataStructures.pdf
-// https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+// inorder traversal - https://www.geeksforgeeks.org/tree-traversals-inorder-preorder-and-postorder/
+// size function - https://www.geeksforgeeks.org/write-a-c-program-to-calculate-size-of-a-tree/
 
 using namespace std;
 
@@ -143,18 +144,21 @@ private:
 
     }
 
-    void printIO(AVLNode<T>* x, std::ofstream& out, int& i) { //In order traversal
+    void printIO(AVLNode<T>* x, std::ofstream& out) { //In order traversal
         if (x == nullptr)
             return;
 
-        printIO(x->left, out, i);
+        printIO(x->left, out);
+        out << " " << x->element;
+        printIO(x->right, out);
 
-        out << i << " " << x->element;
-        i++;
+    }
 
-        printIO(x->right, out, i);
+    int size(AVLNode<T>* & x, int& i) {
+        if (x == nullptr)
+            return 0;
 
-
+        return (size(x->left, i) + 1 + size(x->right, i));
     }
 
 
@@ -180,10 +184,14 @@ public:
         return contains(x, root);
     }
 
-    void printIO(std::ofstream& out, int& i) {
-        return printIO(root, out, i);
+    void printIO(std::ofstream& out) {
+        return printIO(root, out);
     }
 
+    int size() {
+        int i = 0;
+        return size(root, i);
+    }
 };
 
 
