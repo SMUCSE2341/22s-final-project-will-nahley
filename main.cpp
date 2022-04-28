@@ -9,6 +9,7 @@
 #include <functional>
 #include "engine_architecture/SearchEngine.h"
 #include <chrono>
+#include <iostream>
 
 using namespace std;
 
@@ -18,15 +19,17 @@ int main(int argc, char** argv) {
     cd /mnt/c/users/wnahl/onedrive/desktop/classwork/'2022 spring'/'cs 2342'/22s-final-project-will-nahley
     */
 
-    /*SearchEngine search;
-    search.go();*/
+    /*string x = "";
+    getline(cin, x);
+    cout << x << endl;*/
 
-    string path = "/mnt/c/Users/wnahl/sample_data_sets/size-221";
-    IndexHandler handler("cole", path, 'p');
-    vector<string> ids = handler.get_correct_documents();
-    for (int i = 0; i < ids.size(); i++) {
-        cout << (i + 1) <<": " << ids[i] << endl;
-    }
+    SearchEngine search;
+    search.go();
+
+    /*string search_term = "fontenot";
+    QueryProcessor query(search_term, "/mnt/c/Users/wnahl/sample_data_sets/size-6000");
+    vector<string> ids = query.generate_sets();
+    int a = 1;*/
 
     return 0;
 }

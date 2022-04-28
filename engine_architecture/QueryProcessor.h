@@ -24,7 +24,7 @@ public:
     void populate_org(int& i);
 
     //Configure Sets
-    void generate_sets();
+    vector<string> generate_sets();
 
 
 private:
@@ -33,6 +33,7 @@ private:
 
     std::vector<std::string> all_words_vector;
 
+    std::vector<std::string> term_vector;
     std::vector<std::string> and_vector;
     std::vector<std::string> or_vector;
     std::vector<std::string> not_vector;

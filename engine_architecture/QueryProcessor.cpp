@@ -119,7 +119,7 @@ void QueryProcessor::populate_org(int &i) {
     }
 }
 
-void QueryProcessor::generate_sets() {
+vector<string> QueryProcessor::generate_sets() {
 
     vector<string> total_set;
 
@@ -129,11 +129,16 @@ void QueryProcessor::generate_sets() {
         vector<string> vector1 = h1.get_correct_documents();
         std::sort(vector1.begin(), vector1.end());
 
-        for (int i = 1; i < and_vector.size(); i++) {
-            IndexHandler h2(and_vector[i], search_path, 't');
-            vector<string> vector2 = h2.get_correct_documents();
-            std::sort(vector2.begin(), vector2.end());
-            std::set_intersection(vector1.begin(),vector1.end(), vector2.begin(), vector2.end(), std::back_inserter(ao_set));
+        if (and_vector.size() == 1) { //one term defaults to the AND vector so this accounts for this case
+            ao_set = vector1;
+        } else {
+            for (int i = 1; i < and_vector.size(); i++) {
+                IndexHandler h2(and_vector[i], search_path, 't');
+                vector<string> vector2 = h2.get_correct_documents();
+                std::sort(vector2.begin(), vector2.end());
+                std::set_intersection(vector1.begin(), vector1.end(), vector2.begin(), vector2.end(),
+                                      std::back_inserter(ao_set));
+            }
         }
 
 
@@ -148,12 +153,12 @@ void QueryProcessor::generate_sets() {
             std::sort(vector2.begin(), vector2.end());
             std::set_union(vector1.begin(),vector1.end(), vector2.begin(), vector2.end(), std::back_inserter(ao_set));
         }
-    } else if (and_vector.empty() && or_vector.empty()) { //To handle the case where there is no "AND" or "OR"
-        IndexHandler h1(all_words_vector[0], search_path, 't');
-        ao_set = h1.get_correct_documents();
     }
 
-    if (!person_vector.empty()) {
+    total_set = ao_set;
+    return total_set;
+
+    /*if (!person_vector.empty()) {
         vector<string> temp_set;
 
 
@@ -167,6 +172,6 @@ void QueryProcessor::generate_sets() {
         vector<string> vector1 = h1.get_correct_documents(); // this vector will get the docs that we DON'T want
         std::sort(vector1.begin(), vector1.end());
         std::set_difference(ao_set.begin(), ao_set.end(), vector1.begin(), vector1.end(), std::inserter(total_set, total_set.begin()));
-    }
+    }*/
 
 }

@@ -1,7 +1,7 @@
 #include "SearchEngine.h"
 
 SearchEngine::SearchEngine() {
-    search_path = "/mnt/c/Users/wnahl/sample_data_sets/size-10";
+    search_path = "/mnt/c/Users/wnahl/sample_data_sets/size-6000";
     cout << "-----------------------------------------------" << endl;
     cout << "-------   Will Nahley's Search Engine   -------" << endl;
 }
@@ -21,18 +21,22 @@ void SearchEngine::go() {
         cout << "6. Quit" << endl;
 
         cin >> choice;
+        cin.ignore();
 
         switch (choice) {
             case 1:
                 //Query
                 {
+
                     cout << "Please enter a query:" << endl;
                     string search_term;
-                    cin >> search_term;
+                    getline(cin, search_term);
+
+
                     QueryProcessor query(search_term, search_path);
 
-                    IndexHandler index_handler (search_term, search_path, 't');
-                    vector<string> ids = index_handler.get_correct_documents();
+                    /*IndexHandler index_handler (search_term, search_path, 'o');*/
+                    vector<string> ids = query.generate_sets();
 
                     cout << "The term '" << search_term << "' appears in " << ids.size() << " document(s):" << endl;
                     for (int i = 0; i < ids.size(); i++) {
