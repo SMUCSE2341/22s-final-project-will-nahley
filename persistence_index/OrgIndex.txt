@@ -1,0 +1,622 @@
+aap /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031016.json 
+abadi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010102.json 
+abus /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031019.json 
+acl /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010136.json 
+acquisit /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010142.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011010.json 
+action /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0032101.json 
+adedi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010128.json 
+administr /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010132.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031011.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041016.json 
+advanc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011101.json 
+advis /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json 
+advisor /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010142.json 
+advisori /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json 
+aethlon /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011014.json 
+affair /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010115.json 
+afl /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031019.json 
+aflac /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031019.json 
+afrin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0040101.json 
+ag /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011101.json 
+agenc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010195.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0045101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0055101.json 
+airbus /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010121.json 
+airlin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010109.json 
+airway /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010169.json 
+alaska /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010109.json 
+alleg /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031019.json 
+allen /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010103.json 
+alrosa /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010134.json 
+alsumariya /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051101.json 
+amazon /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010182.json 
+amazoncom /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010182.json 
+amd /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010164.json 
+american /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json 
+ameripris /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010168.json 
+ameritrad /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0044101.json 
+amorepacif /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0008199.json 
+anadolu /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011012.json 
+angel /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010174.json 
+announc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0007101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010132.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051016.json 
+antidop /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0055101.json 
+antimonopoli /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010134.json 
+apl /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010132.json 
+apoge /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0007101.json 
+appeal /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010160.json 
+appl /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010182.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011019.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0012101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0054101.json 
+appoint /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json 
+architectur /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0007101.json 
+arena /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010109.json 
+arequipa /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010117.json 
+arjun /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json 
+arm /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010164.json 
+arrow /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json 
+aspect /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031019.json 
+assembl /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010104.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010160.json 
+atp /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021013.json 
+atwal /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json 
+auburn /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010104.json 
+australian /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0012101.json 
+auto /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json 
+automobil /mnt/c/Users/wnahl/sample_data_sets/size-221/blogs_0021012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051013.json 
+axa /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051014.json 
+ayudhya /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031012.json 
+badger /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0023858.json 
+bank /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001016.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0002982.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010116.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010199.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011013.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021016.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0045101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json 
+banq /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json 
+barley /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json 
+beij /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010144.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010175.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0023101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0038101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051019.json 
+benetton /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+berendsen /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051012.json 
+billion /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010156.json 
+binladin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021016.json 
+bioscienc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011014.json 
+bitcoin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010180.json 
+blockchainbas /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0024101.json 
+bloomberg /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010136.json 
+blue /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+bluevin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010181.json 
+board /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010188.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031019.json 
+boilermak /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0023858.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047480.json 
+boj /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011013.json 
+bp /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001010.json 
+briefbank /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010131.json 
+briefbanqu /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0020101.json 
+briefgkn /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010190.json 
+briefhainan /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010144.json 
+briefjpmorgan /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010165.json 
+briefkohlberg /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041011.json 
+brieflsc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031014.json 
+briefmti /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010170.json 
+briefnew /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051019.json 
+briefpcsb /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041012.json 
+briefpharma /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0038101.json 
+brieftamarack /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0025101.json 
+brieftatwah /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010175.json 
+brown /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json 
+bureau /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0012101.json 
+busi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json 
+cadillac /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051013.json 
+calai /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010158.json 
+california /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+canada /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021019.json 
+canopi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010177.json 
+cantonal /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0020101.json 
+capit /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010156.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json 
+capsul /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010159.json 
+card /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010165.json 
+cardiff /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+carlin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0032101.json 
+casio /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0005101.json 
+cassat /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010158.json 
+caterpillar /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json 
+cdu /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010141.json 
+center /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010104.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0017101.json 
+central /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010199.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json 
+charg /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010156.json 
+chargeoff /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010165.json 
+chase /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010165.json 
+cheetah /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051011.json 
+chef /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021019.json 
+cherri /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0055101.json 
+china /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051013.json 
+christian /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010119.json 
+chrysler /mnt/c/Users/wnahl/sample_data_sets/size-221/blogs_0021012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json 
+circuit /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010160.json 
+citi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0015101.json 
+citigroup /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010186.json 
+civil /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010117.json 
+class /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0032101.json 
+club /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010113.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021014.json 
+cnbc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010118.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010141.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010153.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010164.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010182.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010185.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021017.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0056101.json 
+cnn /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0057101.json 
+coalit /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0027101.json 
+coffe /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010153.json 
+colleg /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0018101.json 
+columbia /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0019101.json 
+commerc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010164.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0027101.json 
+committe /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010164.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0053101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0055101.json 
+common /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051016.json 
+communic /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0026101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031014.json 
+communist /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011016.json 
+compani /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031010.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031019.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0045101.json 
+complet /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010142.json 
+compon /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json 
+congress /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001010.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010163.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010164.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0057101.json 
+connacht /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+construct /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011016.json 
+corp /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010116.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010126.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010163.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010177.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010183.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0023101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031013.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0044101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json 
+corpor /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0002982.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010150.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010152.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010157.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0026101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041012.json 
+corrupt /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010121.json 
+corus /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001012.json 
+countri /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010113.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json 
+cour /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010158.json 
+court /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010160.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0019101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041101.json 
+cowboy /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010112.json 
+cowen /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json 
+credit /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010165.json 
+csu /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010119.json 
+cup /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json 
+cush /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031011.json 
+cymabay /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051016.json 
+daiwa /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031101.json 
+dar /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011014.json 
+data /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011017.json 
+dawa /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010102.json 
+dazon /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010104.json 
+de /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010158.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021019.json 
+dec /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031012.json 
+defend /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051017.json 
+defens /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010117.json 
+democrat /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010115.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010119.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010141.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010158.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021015.json 
+depart /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0027101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041010.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0053101.json 
+develop /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010116.json 
+dhofar /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010171.json 
+digit /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051011.json 
+director /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031019.json 
+distributor /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010153.json 
+district /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0019101.json 
+donna /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001017.json 
+dorsey /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+douala /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041017.json 
+dow /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json 
+drop /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051015.json 
+drug /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010132.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041016.json 
+dua /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010139.json 
+dublin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+duop /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010104.json 
+ebitda /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051012.json 
+ecb /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010199.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json 
+ed /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010173.json 
+edinburgh /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+edward /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010124.json 
+eia /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031011.json 
+eikon /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010100.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010142.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010188.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010191.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010193.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010194.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011010.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0024101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0034101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041012.json 
+einfochip /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json 
+electr /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010156.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0049101.json 
+electron /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0029101.json 
+eli /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051012.json 
+employe /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031019.json 
+energi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010164.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0025101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031011.json 
+enterpris /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0007101.json 
+entertain /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json 
+equit /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010142.json 
+equiti /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010142.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json 
+erlewin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0032101.json 
+eru /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001101.json 
+estat /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011010.json 
+eti /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001014.json 
+eu /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010124.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010130.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010135.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010136.json 
+eurasia /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json 
+european /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010124.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010158.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010199.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json 
+evercor /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051016.json 
+everi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031019.json 
+ey /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010151.json 
+fake /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011017.json 
+fall /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010171.json 
+fallsbas /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010177.json 
+famili /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0026101.json 
+fbi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041010.json 
+fda /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010132.json 
+fear /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031015.json 
+feder /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010134.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051017.json 
+fiat /mnt/c/Users/wnahl/sample_data_sets/size-221/blogs_0021012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json 
+fieldhous /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010103.json 
+file /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010165.json 
+financ /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010116.json 
+financi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010168.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031013.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+firm /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+food /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010132.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010170.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041016.json 
+forb /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010111.json 
+forc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010115.json 
+ford /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010125.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010137.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json 
+foreign /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0039101.json 
+forest /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010110.json 
+fraud /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031019.json 
+free /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010141.json 
+fulton /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031013.json 
+fy /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010171.json 
+gdynia /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010100.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010188.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010191.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010193.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010194.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0020101.json 
+ge /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010156.json 
+gene /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0055101.json 
+general /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010137.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010156.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051013.json 
+genscap /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031011.json 
+geolog /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010117.json 
+germani /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010121.json 
+gesamtmetal /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0052101.json 
+getti /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010182.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0053101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0054101.json 
+gic /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010116.json 
+givenchi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0008199.json 
+gkn /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010149.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010190.json 
+glasgow /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+glass /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0007101.json 
+glenmari /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json 
+global /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010136.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010141.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json 
+gm /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051013.json 
+goldman /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json 
+golf /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json 
+googl /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051015.json 
+gopal /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0048101.json 
+gracenot /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+green /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010141.json 
+group /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010126.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010133.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010162.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010170.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010189.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json 
+growth /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010177.json 
+gsee /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010128.json 
+guid /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json 
+hadley /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json 
+hainan /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010144.json 
+harsco /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010157.json 
+hdfc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010116.json 
+head /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+headlin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010144.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010175.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0023101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0038101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051019.json 
+health /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001017.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051018.json 
+helom /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010152.json 
+hem /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011011.json 
+hennessi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010142.json 
+henri /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json 
+hill /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001011.json 
+hindustan /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010163.json 
+hipaa /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010182.json 
+hire /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010159.json 
+hockey /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0044101.json 
+hold /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010111.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010164.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010177.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0026101.json 
+honda /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010137.json 
+hong /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010198.json 
+hotel /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010138.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051010.json 
+hous /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0004101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010116.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010164.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0053101.json 
+hsbc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051014.json 
+huski /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010109.json 
+hyundai /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001013.json 
+idexx /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0030101.json 
+ig /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0052101.json 
+imag /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010182.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0053101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0054101.json 
+incorpor /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031019.json 
+independ /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010108.json 
+india /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001016.json 
+industri /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010132.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010159.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011015.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0034101.json 
+inform /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031011.json 
+informa /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010154.json 
+ing /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0044101.json 
+ingram /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010104.json 
+initi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json 
+instagram /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0032101.json 
+institut /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010117.json 
+insur /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010156.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0045101.json 
+intel /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010164.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json 
+intellig /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0049101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0053101.json 
+intern /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010138.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010169.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0027101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041016.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0055101.json 
+invest /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001013.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0007101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011010.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031101.json 
+ioc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0055101.json 
+ipic /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json 
+ira /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010173.json 
+iraqi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010102.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051101.json 
+isi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051016.json 
+islam /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010102.json 
+island /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010177.json 
+japan /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011013.json 
+jayhawk /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010103.json 
+jersey /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0034101.json 
+jerusalem /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0039101.json 
+jointown /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010133.json 
+journal /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010184.json 
+joyrid /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010153.json 
+jpmorgan /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010165.json 
+justic /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0053101.json 
+kansa /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010103.json 
+kasperski /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041013.json 
+kate /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010155.json 
+kcc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0032101.json 
+kelli /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json 
+ken /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0054101.json 
+kennel /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021014.json 
+kerr /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0032101.json 
+kia /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001013.json 
+kinetix /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010188.json 
+king /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+kingdom /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010111.json 
+kinwong /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0029101.json 
+kkr /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010116.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041011.json 
+kodak /mnt/c/Users/wnahl/sample_data_sets/size-221/blogs_0021011.json 
+kodakcoin /mnt/c/Users/wnahl/sample_data_sets/size-221/blogs_0021011.json 
+kong /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010198.json 
+korea /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001013.json 
+kravi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041011.json 
+kurdistan /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011012.json 
+lab /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041013.json 
+laboratori /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0030101.json 
+laughter /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031015.json 
+law /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0017101.json 
+le /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010158.json 
+ledbett /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0045101.json 
+leerink /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051016.json 
+leinster /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+limit /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json 
+lipa /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010139.json 
+litig /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+livep /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json 
+llc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0045101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051016.json 
+lloyd /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010124.json 
+llp /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+london /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010124.json 
+longhorn /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010112.json 
+longood /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0049101.json 
+los /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010110.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010174.json 
+lsc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031014.json 
+lsu /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010104.json 
+lvmh /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0008199.json 
+m /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json 
+maci /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0027101.json 
+mandl /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0054101.json 
+manufactur /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031010.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051013.json 
+maravich /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010104.json 
+marin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031018.json 
+market /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0026101.json 
+marriott /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010169.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0027101.json 
+mcafe /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041010.json 
+mccloy /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json 
+mechatron /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0023101.json 
+medic /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010152.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011014.json 
+medicaid /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010162.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010189.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0017101.json 
+medicar /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010162.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010189.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0017101.json 
+medicin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011101.json 
+melcor /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011010.json 
+melros /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010190.json 
+mena /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001019.json 
+menlo /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010181.json 
+merchant /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0002982.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031018.json 
+merg /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0045101.json 
+merkel /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010119.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021015.json 
+metal /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0052101.json 
+metso /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010150.json 
+mi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011016.json 
+michael /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+milbank /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json 
+min /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010160.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010174.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0039101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041017.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051018.json 
+ministri /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0039101.json 
+mission /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021019.json 
+mln /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011010.json 
+mobil /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0024101.json 
+modin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031010.json 
+mohawk /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011015.json 
+moment /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010117.json 
+morri /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041016.json 
+motor /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001013.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010125.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010137.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010145.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051013.json 
+mountain /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0048101.json 
+mukherje /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010163.json 
+munster /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+muscat /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010131.json 
+muslim /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010179.json 
+nasa /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041010.json 
+nasdaq /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json 
+nation /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010110.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010195.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021016.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041014.json 
+nato /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011012.json 
+nepal /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0048101.json 
+news /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010144.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010149.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010175.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010183.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011017.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0023101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0038101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051019.json 
+newsroom /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010100.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010188.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010191.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010193.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010194.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0020101.json 
+nguyen /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011016.json 
+north /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json 
+npl /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031012.json 
+nv /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json 
+nyse /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010132.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010157.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011015.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031019.json 
+offer /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010190.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051016.json 
+offic /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010115.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+oklahoma /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010112.json 
+olymp /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0055101.json 
+oncolog /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010132.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011101.json 
+open /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010113.json 
+opta /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010122.json 
+organigram /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010177.json 
+osborn /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031015.json 
+oval /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010133.json 
+pac /mnt/c/Users/wnahl/sample_data_sets/size-221/blogs_0021012.json 
+padr /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010110.json 
+palestin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041014.json 
+pariba /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0046101.json 
+parti /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010102.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010108.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010119.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010141.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010163.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011016.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0042101.json 
+partner /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051016.json 
+paul /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031015.json 
+pcl /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031012.json 
+pcsb /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041012.json 
+pentagon /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041010.json 
+perkinelm /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041018.json 
+pete /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010104.json 
+petroleum /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010163.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031011.json 
+petrovietnam /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011016.json 
+pga /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010113.json 
+pharm /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010144.json 
+pharma /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0038101.json 
+pharmaceut /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010132.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010133.json 
+philip /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041016.json 
+phillip /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0032101.json 
+pictur /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021101.json 
+pkk /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011012.json 
+plc /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001010.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010149.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010190.json 
+pm /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010102.json 
+poli /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010144.json 
+post /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001011.json 
+poultri /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010171.json 
+poverti /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0017101.json 
+powerschool /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011019.json 
+pratt /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001017.json 
+precis /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011101.json 
+price /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051016.json 
+probe /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010121.json 
+product /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0038101.json 
+profit /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010171.json 
+promit /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010163.json 
+properti /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011010.json 
+prudenti /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051014.json 
+public /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010115.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051016.json 
+publish /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010117.json 
+purdu /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0023858.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047480.json 
+qanta /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010169.json 
+qatar /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021016.json 
+r /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010165.json 
+rainier /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010142.json 
+ranger /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json 
+rank /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0053101.json 
+rasmussen /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010141.json 
+read /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010160.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010174.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0039101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041017.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051018.json 
+real /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011010.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011017.json 
+reath /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010104.json 
+recon /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0024101.json 
+refuge /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041014.json 
+regist /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051017.json 
+relief /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010195.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041014.json 
+renaiss /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021016.json 
+renault /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0008101.json 
+research /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010123.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0038101.json 
+reserv /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010156.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031011.json 
+restructur /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0007101.json 
+reuter /mnt/c/Users/wnahl/sample_data_sets/size-221/blogs_0000101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001013.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001016.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001019.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0002101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0008101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0008199.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010100.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010102.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010105.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010108.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010110.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010111.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010113.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010115.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010116.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010117.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010119.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010120.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010122.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010124.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010125.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010126.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010128.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010130.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010131.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010133.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010134.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010135.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010136.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010137.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010142.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010144.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010145.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010146.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010147.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010148.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010149.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010151.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010154.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010158.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010160.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010161.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010162.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010163.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010165.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010169.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010171.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010174.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010175.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010176.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010177.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010179.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010187.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010188.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010189.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010190.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010191.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010192.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010193.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010194.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010195.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010196.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010198.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010199.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011010.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011011.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011013.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011016.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0012101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0015101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0017101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0019101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0020101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021013.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021015.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021016.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021019.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0023101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0024101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0025101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0029101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031011.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031016.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0032101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0034101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0035101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0037101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0038101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0039101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0040101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041010.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041011.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041013.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041016.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041017.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0042101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0046101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0048101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0049101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051010.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051013.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051019.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0052101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0053101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0055101.json 
+review /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010156.json 
+ria /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041013.json 
+richardson /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001017.json 
+ritz /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051010.json 
+ritzcarlton /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010198.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051010.json 
+robert /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041011.json 
+roch /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011101.json 
+rosneft /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010134.json 
+roth /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json 
+rpp /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010117.json 
+rugbi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+ryder /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010114.json 
+sach /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json 
+sap /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041010.json 
+sasser /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0026101.json 
+saudi /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021016.json 
+scarlet /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+sdf /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010115.json 
+sea /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051019.json 
+sec /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010104.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010165.json 
+secur /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001013.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010159.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+senat /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0057101.json 
+servic /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010134.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0017101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021016.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0032101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+sfh /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0026101.json 
+sharma /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0048101.json 
+shenzhen /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0029101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0049101.json 
+sheppard /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001017.json 
+shibaura /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0023101.json 
+shiit /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010102.json 
+shop /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0024101.json 
+show /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021018.json 
+sky /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010149.json 
+skylin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010152.json 
+slott /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010173.json 
+smartech /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010175.json 
+smith /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010177.json 
+social /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010119.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010158.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021015.json 
+socialist /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010141.json 
+softbank /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010126.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010164.json 
+solac /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json 
+soni /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010113.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021101.json 
+sophomor /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010103.json 
+south /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0034101.json 
+southern /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0017101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+sp /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010157.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0030101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json 
+spade /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010155.json 
+spd /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010119.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010130.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010141.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021015.json 
+staf /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001016.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010149.json 
+staff /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001019.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0002101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0008101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010108.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010113.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010119.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010122.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010125.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010145.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010146.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010148.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010154.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010162.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010177.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010179.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010187.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010189.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010195.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010198.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011010.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011011.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021015.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021016.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021019.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0037101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0046101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0052101.json 
+stanford /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010109.json 
+starbuck /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010153.json 
+state /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010102.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010103.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010112.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041010.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041014.json 
+statist /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0012101.json 
+stock /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051016.json 
+strateg /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031011.json 
+street /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010184.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041018.json 
+sturgeon /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010135.json 
+supervisori /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010188.json 
+suprem /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010160.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041101.json 
+survey /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010117.json 
+swarnamah /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001014.json 
+sxpp /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051014.json 
+symantec /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041010.json 
+syrian /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010115.json 
+system /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001017.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0024101.json 
+tamarack /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0025101.json 
+tase /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010132.json 
+tatwah /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010175.json 
+team /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0021019.json 
+tech /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041010.json 
+technolog /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0024101.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051019.json 
+tele /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011011.json 
+telecom /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051019.json 
+telsey /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json 
+tenerelli /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+teva /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010132.json 
+texa /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010104.json 
+therapeut /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051016.json 
+thomson /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010137.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010192.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047101.json 
+tiger /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010104.json 
+time /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010149.json 
+toshiba /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0023101.json 
+touquet /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010158.json 
+tour /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010113.json 
+toyota /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010137.json 
+travel /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0027101.json 
+treasuri /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0042101.json 
+treviso /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+tripoint /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0028101.json 
+trump /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010120.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010138.json 
+trust /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011010.json 
+turkey /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010115.json 
+tv /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051101.json 
+tweed /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0013101.json 
+ubm /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010154.json 
+uk /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010108.json 
+ukip /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010108.json 
+ulster /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+undervalu /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010190.json 
+union /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001018.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010119.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010124.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010158.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051019.json 
+unit /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010195.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041014.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0045101.json 
+unitedhealth /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010162.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010189.json 
+univers /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0045101.json 
+unrwa /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010195.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041014.json 
+updat /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010117.json 
+usada /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0055101.json 
+valley /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0025101.json 
+vanda /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010123.json 
+vassar /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0018101.json 
+vatican /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0015101.json 
+ventur /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010181.json 
+veteran /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010159.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json 
+visit /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0027101.json 
+vodafon /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011018.json 
+volkswagen /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010137.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010148.json 
+vw /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010148.json 
+wada /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0055101.json 
+wagstaff /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0032101.json 
+waiala /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010113.json 
+wall /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010184.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041018.json 
+warrior /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 
+washington /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001011.json 
+white /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0004101.json 
+whitney /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0043101.json 
+wildcat /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010103.json 
+wildlif /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0051017.json 
+wolverin /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0047480.json 
+work /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010195.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0041014.json 
+worker /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011012.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0042101.json 
+world /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0055101.json 
+wsj /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010121.json /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0010184.json 
+york /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0031015.json 
+ypg /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0011012.json 
+zebr /mnt/c/Users/wnahl/sample_data_sets/size-221/news_0001015.json 

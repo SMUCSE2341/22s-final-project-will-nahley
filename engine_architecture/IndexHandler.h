@@ -12,7 +12,7 @@
 
 class IndexHandler {
 public:
-    IndexHandler(string search_string,string search_path);
+    IndexHandler(string search_string,string search_path, char type);
     void generate_filenames();
 
     //Populates AVL Tree
@@ -28,6 +28,7 @@ public:
 private:
     string search_string;
     string search_path;
+    char type;
     vector<string> filename_vec;
 
     AVLTree<Term> terms_tree;

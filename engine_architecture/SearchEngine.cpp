@@ -1,7 +1,7 @@
 #include "SearchEngine.h"
 
 SearchEngine::SearchEngine() {
-    search_path = "/mnt/c/Users/wnahl/sample_data_sets/size-6000";
+    search_path = "/mnt/c/Users/wnahl/sample_data_sets/size-10";
     cout << "-----------------------------------------------" << endl;
     cout << "-------   Will Nahley's Search Engine   -------" << endl;
 }
@@ -31,7 +31,7 @@ void SearchEngine::go() {
                     cin >> search_term;
                     QueryProcessor query(search_term, search_path);
 
-                    IndexHandler index_handler (search_term, search_path);
+                    IndexHandler index_handler (search_term, search_path, 't');
                     vector<string> ids = index_handler.get_correct_documents();
 
                     cout << "The term '" << search_term << "' appears in " << ids.size() << " document(s):" << endl;

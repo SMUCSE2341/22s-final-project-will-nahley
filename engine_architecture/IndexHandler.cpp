@@ -6,14 +6,20 @@ namespace fs = std::filesystem;
 
 //Check to see if file is empty - https://stackoverflow.com/questions/2390912/checking-for-an-empty-file-in-c
 
-IndexHandler::IndexHandler(string search_string, string search_path) {
+IndexHandler::IndexHandler(string search_string, string search_path, char type) {
     this->search_string = search_string;
+    this->type = type;
     Porter2Stemmer::trim(this->search_string);
     Porter2Stemmer::stem(this->search_string);
     this->search_path = search_path;
     generate_filenames();
 
-    persistence_filepath = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/PersistenceIndex.txt";
+    if (type == 't')
+        persistence_filepath = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/PersistenceIndex.txt";
+    else if(type == 'o')
+        persistence_filepath = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/OrgIndex.txt";
+    else if (type == 'p')
+        persistence_filepath = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/PersonIndex.txt";
 
 }
 
@@ -33,20 +39,47 @@ void IndexHandler::add_terms(std::vector<std::string> &stemmed_words, std::strin
     for (int i = 0; i < stemmed_words.size(); i++) {
         Term this_term = stemmed_words[i];
         this_term.add_document(docID);
-        if (terms_tree.contains(this_term)) {
-            AVLNode<Term>* node = terms_tree.find_node(this_term);
-            if (!node->element.contains(docID)) {
-                node->element.add_document(docID);
-            }
 
-        } else {
-            terms_tree.insert(this_term);
+        if (type == 't') {
+
+            if (terms_tree.contains(this_term)) {
+                AVLNode<Term> *node = terms_tree.find_node(this_term);
+                if (!node->element.contains(docID)) {
+                    node->element.add_document(docID);
+                }
+
+            } else {
+                terms_tree.insert(this_term);
+            }
+        } else if (type == 'o') {
+            if (org_tree.contains(this_term)) {
+                AVLNode<Term> *node = org_tree.find_node(this_term);
+                if (!node->element.contains(docID)) {
+                    node->element.add_document(docID);
+                }
+
+            } else {
+                org_tree.insert(this_term);
+            }
         }
+
+        else if (type == 'p') {
+            if (person_tree.contains(this_term)) {
+                AVLNode<Term> *node = person_tree.find_node(this_term);
+                if (!node->element.contains(docID)) {
+                    node->element.add_document(docID);
+                }
+
+            } else {
+                person_tree.insert(this_term);
+            }
+        }
+
     }
 }
 
 void IndexHandler::populate_tree() {
-    Parser p(search_path);
+    Parser p(search_path, type);
 
     for (int i = 0; i < filename_vec.size(); i++) {
         string cur_docID;
@@ -60,8 +93,12 @@ void IndexHandler::populate_tree() {
         cout << "Not open.." << endl;
     }
 
-    int i = 1;
-    terms_tree.printIO(out);
+    if (type == 't')
+        terms_tree.printIO(out);
+    else if (type == 'o')
+        org_tree.printIO(out);
+    else if (type == 'p');
+        person_tree.printIO(out);
 
 }
 
@@ -114,15 +151,6 @@ vector<string> IndexHandler::get_correct_documents() {
     }
 
 }
-
-vector<string> IndexHandler::get_org_documents() {
-    return vector<string>();
-}
-
-vector<string> IndexHandler::get_person_documents() {
-    return vector<string>();
-}
-
 
 
 

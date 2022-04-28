@@ -9,8 +9,9 @@ using namespace std;
 namespace fs = std::filesystem;
 
 ///PARSER INSTANTIATION
-Parser::Parser(std::string path) {
+Parser::Parser(std::string path, char type) {
     this->path = path;
+    this->type = type;
     generate_stop_words();
 }
 
@@ -81,12 +82,42 @@ vector<string> Parser::get_doc_info(string filepath, string& id) {
 
     id = filepath;
     //id = d["uuid"].GetString();
-    string text = d["text"].GetString();
+    string text;
+    if (type == 't') { // where t represents term
+        text = d["text"].GetString();
+    } else if (type == 'o') {
+        vector<string> organizations;
+        const rapidjson::Value& orgs = d["entities"]["organizations"];
+        int size = orgs.Size();
+        for (int i = 0; i < size; i++) {
+            organizations.push_back(orgs[i]["name"].GetString());
+        }
+
+        for (int i = 0; i < organizations.size(); i++) {
+            text = text + organizations[i] + " ";
+        }
+
+    } else if (type == 'p') {
+        vector<string> persons;
+        const rapidjson::Value& pers = d["entities"]["persons"];
+        int size = pers.Size();
+        for (int i = 0; i < size; i++) {
+            persons.push_back(pers[i]["name"].GetString());
+        }
+
+        for (int i = 0; i < persons.size(); i++) {
+            text = text + persons[i] + " ";
+        }
+    }
     vector<string> clean_text = word_vec(text);
     return clean_text;
 
 }
 
+
+char Parser::get_type() {
+    return type;
+}
 
 
 
