@@ -9,7 +9,7 @@
 class QueryProcessor {
 public:
 
-    enum QUERY_TYPE {AND, OR}; //If neither is selected (1 term), then assume AND although it doesn't matter
+    enum QUERY_TYPE {AND, OR, NEITHER}; //If neither is selected (1 term), then assume AND although it doesn't matter
 
     //Processor Initialization
     QueryProcessor(std::string search_term, std::string search_path);
@@ -24,7 +24,8 @@ public:
     void populate_org(int& i);
 
     //Configure Sets
-    vector<string> generate_sets();
+    vector<string> generate_and_or_set();
+    vector<string> generate_full_set();
 
 
 private:
@@ -33,7 +34,6 @@ private:
 
     std::vector<std::string> all_words_vector;
 
-    std::vector<std::string> term_vector;
     std::vector<std::string> and_vector;
     std::vector<std::string> or_vector;
     std::vector<std::string> not_vector;

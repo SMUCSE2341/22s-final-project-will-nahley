@@ -36,7 +36,7 @@ void SearchEngine::go() {
                     QueryProcessor query(search_term, search_path);
 
                     /*IndexHandler index_handler (search_term, search_path, 'o');*/
-                    vector<string> ids = query.generate_sets();
+                    vector<string> ids = query.generate_full_set();
 
                     cout << "The term '" << search_term << "' appears in " << ids.size() << " document(s):" << endl;
                     for (int i = 0; i < ids.size(); i++) {
