@@ -27,6 +27,8 @@ public:
     vector<string> generate_and_or_set();
     vector<string> generate_full_set();
 
+    void clear_index();
+
 
 private:
     std::string search_term;

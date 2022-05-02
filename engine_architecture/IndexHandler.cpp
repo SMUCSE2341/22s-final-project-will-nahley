@@ -152,5 +152,11 @@ vector<string> IndexHandler::get_correct_documents() {
 
 }
 
+void IndexHandler::clear() {
+    ofstream clear_stream(persistence_filepath);
+    clear_stream.clear();
+
+}
+
 
 

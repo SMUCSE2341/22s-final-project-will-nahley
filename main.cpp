@@ -19,17 +19,16 @@ int main(int argc, char** argv) {
     cd /mnt/c/users/wnahl/onedrive/desktop/classwork/'2022 spring'/'cs 2342'/22s-final-project-will-nahley
     */
 
-    /*string x = "";
-    getline(cin, x);
-    cout << x << endl;*/
+    /*string sample_path = "/mnt/c/Users/wnahl/sample_data_sets/size-6000";
+    string full_path = "/mnt/c/Users/wnahl/OneDrive/Desktop/JSONData/archive/archive";
+    IndexHandler text("finance", sample_path, 't');
+    text.populate_tree();*/
+
 
     SearchEngine search;
     search.go();
 
-    /*string search_term = "fontenot";
-    QueryProcessor query(search_term, "/mnt/c/Users/wnahl/sample_data_sets/size-6000");
-    vector<string> ids = query.generate_sets();
-    int a = 1;*/
+
 
     return 0;
 }

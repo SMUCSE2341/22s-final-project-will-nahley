@@ -185,6 +185,9 @@ vector<string> QueryProcessor::generate_and_or_set() {
 
     }
 
+    vector<string> empty_set;
+    return empty_set;
+
 
 }
 
@@ -229,5 +232,11 @@ vector<string> QueryProcessor::generate_full_set() {
 
     return full_set;
 
+}
+
+void QueryProcessor::clear_index() {
+
+    IndexHandler h("NA", search_path, 't');
+    h.clear();
 }
 

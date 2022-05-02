@@ -21,8 +21,9 @@ public:
 
     //Based off of search string
     vector<string> get_correct_documents();
-    vector<string> get_org_documents();
-    vector<string> get_person_documents();
+
+    //Clearing
+    void clear();
 
 
 private:
