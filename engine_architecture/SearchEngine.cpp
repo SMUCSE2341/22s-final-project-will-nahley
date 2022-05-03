@@ -16,7 +16,7 @@ void SearchEngine::go() {
         cout << "1: Enter a query" << endl;
         cout << "2: View the index" << endl;
         cout << "3. Clear the index" << endl;
-        cout << "4. Parse or populate" << endl;
+        cout << "4. Statistics" << endl;
         cout << "5. Quit" << endl;
         cout << endl << "Selection: ";
 
