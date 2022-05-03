@@ -1,24 +1,16 @@
-#include "data_structures/AVLTree.h"
-#include "rapidjson/document.h"
-#include "rapidjson/stringbuffer.h"
-#include "engine_architecture/Parser.h"
 #include "engine_architecture/IndexHandler.h"
-#include "engine_architecture/QueryProcessor.h"
-#include <iostream>
-#include <vector>
-#include <functional>
 #include "engine_architecture/SearchEngine.h"
-#include <chrono>
-#include <iostream>
 
 using namespace std;
 
-int main(int argc, char** argv) {
+int main() {
 
     SearchEngine search;
     search.go();
 
-
+    string path = "/mnt/c/Users/wnahl/OneDrive/Desktop/JSONData/archive/archive/Half_data";
+    IndexHandler h("finance", path, 't');
+    h.populate_tree();
 
     return 0;
 }

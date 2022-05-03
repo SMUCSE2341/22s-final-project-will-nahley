@@ -15,11 +15,11 @@ IndexHandler::IndexHandler(string search_string, string search_path, char type) 
     generate_filenames();
 
     if (type == 't')
-        persistence_filepath = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/PersistenceIndex.txt";
+        persistence_filepath = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley-2/persistence_index/PersistenceIndex.txt";
     else if(type == 'o')
-        persistence_filepath = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/OrgIndex.txt";
+        persistence_filepath = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley-2/persistence_index/OrgIndex.txt";
     else if (type == 'p')
-        persistence_filepath = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/PersonIndex.txt";
+        persistence_filepath = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley-2/persistence_index/PersonIndex.txt";
 
 }
 

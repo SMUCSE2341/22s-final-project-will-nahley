@@ -101,11 +101,11 @@ void SearchEngine::go() {
                     cin >> x;
 
                     if (x == "TEXT")
-                        i_path = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/PersistenceIndex.txt";
+                        i_path = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley-2/persistence_index/PersistenceIndex.txt";
                     else if (x == "ORG")
-                        i_path = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/OrgIndex.txt";
+                        i_path = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley-2/persistence_index/OrgIndex.txt";
                     else if (x == "PERSON")
-                        i_path = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/PersonIndex.txt";
+                        i_path = "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley-2/persistence_index/PersonIndex.txt";
                 } while (x != "TEXT" && x != "ORG" && x != "PERSON");
 
                 ifstream in(i_path);
@@ -132,11 +132,11 @@ void SearchEngine::go() {
 
                 if (check == 1) {
                     ofstream clear_terms(
-                            "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/PersistenceIndex.txt");
+                            "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley-2/persistence_index/PersistenceIndex.txt");
                     ofstream clear_persons(
-                            "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/PersonIndex.txt");
+                            "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley-2/persistence_index/PersonIndex.txt");
                     ofstream clear_orgs(
-                            "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/OrgIndex.txt");
+                            "/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley-2/persistence_index/OrgIndex.txt");
 
                     clear_terms.clear();
                     clear_persons.clear();
@@ -177,7 +177,7 @@ int SearchEngine::total_num_articles() {
 }
 
 int SearchEngine::total_num_words_indexed() {
-    ifstream in ("/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/PersistenceIndex.txt");
+    ifstream in ("/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley-2/persistence_index/PersistenceIndex.txt");
     int counter = 0;
     string cur_line;
     while (getline(in,cur_line, '\n')) {
@@ -187,7 +187,7 @@ int SearchEngine::total_num_words_indexed() {
 
 }
 int SearchEngine::total_unique_orgs() {
-    ifstream in ("/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/OrgIndex.txt");
+    ifstream in ("/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley-2/persistence_index/OrgIndex.txt");
     int counter = 0;
     string cur_line;
     while (getline(in,cur_line, '\n')) {
@@ -197,7 +197,7 @@ int SearchEngine::total_unique_orgs() {
 
 }
 int SearchEngine::total_unique_persons() {
-    ifstream in ("/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley/persistence_index/PersonIndex.txt");
+    ifstream in ("/mnt/c/Users/wnahl/OneDrive/Desktop/Classwork/2022 Spring/CS 2342/22s-final-project-will-nahley-2/persistence_index/PersonIndex.txt");
     int counter = 0;
     string cur_line;
     while (getline(in,cur_line, '\n')) {
