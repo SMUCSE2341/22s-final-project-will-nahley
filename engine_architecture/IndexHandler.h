@@ -5,13 +5,15 @@
 #include <string>
 #include <iostream>
 #include "../data_structures/AVLTree.h"
-#include "../data_structures/HashTable.h"
 #include "../Term.h"
 #include "Parser.h"
 #include <chrono>
 
 class IndexHandler {
 public:
+    //Search string represents the word we are searching
+    //search path is where we're looking
+    //type is either 't' term, 'p' person, or 'o' organization
     IndexHandler(string search_string,string search_path, char type);
     void generate_filenames();
 
@@ -22,8 +24,8 @@ public:
     //Based off of search string
     vector<string> get_correct_documents();
 
-    //Clearing
-    void clear();
+    //Index article statistics
+    int get_unique_articles();
 
 
 private:
@@ -31,14 +33,13 @@ private:
     string search_path;
     char type;
     vector<string> filename_vec;
+    int unique_articles;
 
     AVLTree<Term> terms_tree;
     AVLTree<Term> org_tree;
     AVLTree<Term> person_tree;
 
     std::string persistence_filepath;
-    std::string org_filepath;
-    std::string person_filepath;
 
 
 };

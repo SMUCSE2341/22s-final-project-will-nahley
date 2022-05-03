@@ -25,31 +25,34 @@ IndexHandler::IndexHandler(string search_string, string search_path, char type) 
 
 
 void IndexHandler::generate_filenames() {
+    unique_articles = 0;
     for (const auto & entry : fs::recursive_directory_iterator(search_path)){
         if (entry.is_regular_file()) {
             if (entry.path().extension().string() == ".json") {
                 string filename = entry.path().c_str();
                 filename_vec.push_back(filename);
+                unique_articles++; //To keep track of how many unique files there are
             }
         }
     }
 }
 
+
 void IndexHandler::add_terms(std::vector<std::string> &stemmed_words, std::string docID) {
-    for (int i = 0; i < stemmed_words.size(); i++) {
+    for (int i = 0; i < stemmed_words.size(); i++) { //iterating through each word and creating a Term
         Term this_term = stemmed_words[i];
         this_term.add_document(docID);
 
-        if (type == 't') {
+        if (type == 't') { //since the type is 't', we need to put this in the terms tree
 
             if (terms_tree.contains(this_term)) {
                 AVLNode<Term> *node = terms_tree.find_node(this_term);
-                if (!node->element.contains(docID)) {
-                    node->element.add_document(docID);
+                if (!node->element.contains(docID)) { //if the tree does not contain the current docID, we add the document to the already
+                    node->element.add_document(docID); //existing node
                 }
 
             } else {
-                terms_tree.insert(this_term);
+                terms_tree.insert(this_term); //If the tree does not contain the Term, we add it to tree
             }
         } else if (type == 'o') {
             if (org_tree.contains(this_term)) {
@@ -88,17 +91,19 @@ void IndexHandler::populate_tree() {
 
     }
 
+    //To write to the persistence index
     std::ofstream out(persistence_filepath, ios::out); //CHANGE THIS FOR TESTING
     if (!out.is_open()) {
         cout << "Not open.." << endl;
     }
 
+    //depending on the type of IndexHandler, we print to the correct .txt file
     if (type == 't')
         terms_tree.printIO(out);
     else if (type == 'o')
         org_tree.printIO(out);
     else if (type == 'p');
-        person_tree.printIO(out);
+    person_tree.printIO(out);
 
 }
 
@@ -121,6 +126,8 @@ vector<string> IndexHandler::get_correct_documents() {
         return node->element.get_IDs();
 
     } else {
+        //To iterate through already-existing persistence index
+        // by checking if search word == current word of index
         while (!in.eof()) {
             string correct = search_string + " ";
             string line;
@@ -152,10 +159,9 @@ vector<string> IndexHandler::get_correct_documents() {
 
 }
 
-void IndexHandler::clear() {
-    ofstream clear_stream(persistence_filepath);
-    clear_stream.clear();
 
+int IndexHandler::get_unique_articles() {
+    return unique_articles;
 }
 
 

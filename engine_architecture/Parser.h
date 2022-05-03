@@ -14,8 +14,6 @@
 class Parser {
 public:
 
-//    C:\Users\wnahl\OneDrive\Desktop\Classwork\2022 Spring\CS 2342\22s-final-project-will-nahley
-
     //Creating the Parser object
     Parser(std::string path, char type);
     void generate_stop_words();

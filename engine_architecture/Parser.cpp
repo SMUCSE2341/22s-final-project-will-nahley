@@ -59,8 +59,6 @@ vector<string> Parser::word_vec(string &text) {
 // Can use binary search here because the stop word list I got from
 // online was already sorted
 bool Parser::is_stopword(const vector<string>& vec, const string word) {
-
-    //return false;
     return std::binary_search(vec.begin(), vec.end(), word);
 }
 
@@ -85,7 +83,7 @@ vector<string> Parser::get_doc_info(string filepath, string& id) {
     string text;
     if (type == 't') { // where t represents term
         text = d["text"].GetString();
-    } else if (type == 'o') {
+    } else if (type == 'o') { // where o represents orgs
         vector<string> organizations;
         const rapidjson::Value& orgs = d["entities"]["organizations"];
         int size = orgs.Size();
@@ -97,7 +95,7 @@ vector<string> Parser::get_doc_info(string filepath, string& id) {
             text = text + organizations[i] + " ";
         }
 
-    } else if (type == 'p') {
+    } else if (type == 'p') { //where p represents persons
         vector<string> persons;
         const rapidjson::Value& pers = d["entities"]["persons"];
         int size = pers.Size();

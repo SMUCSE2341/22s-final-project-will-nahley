@@ -20,7 +20,7 @@ public:
     int height;
 
     AVLNode(const T &theElement, AVLNode<T>* lt, AVLNode<T>* rt, int h = 0) :
-        element(theElement), left(lt), right(rt), height(h) {}
+            element(theElement), left(lt), right(rt), height(h) {}
 
 };
 
@@ -144,7 +144,7 @@ private:
 
     }
 
-    void printIO(AVLNode<T>*& x, std::ofstream& out) { //In order traversal
+    void printIO(AVLNode<T>*& x, std::ofstream& out) { //In-order traversal
         if (x != nullptr) {
             printIO(x->left, out);
             out << x->element;

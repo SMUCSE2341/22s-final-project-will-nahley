@@ -5,11 +5,12 @@
 #include <string>
 #include <set>
 #include "IndexHandler.h"
+#include "../DSDoc.h"
 
 class QueryProcessor {
 public:
 
-    enum QUERY_TYPE {AND, OR, NEITHER}; //If neither is selected (1 term), then assume AND although it doesn't matter
+    enum QUERY_TYPE {AND, OR, NEITHER};
 
     //Processor Initialization
     QueryProcessor(std::string search_term, std::string search_path);
@@ -27,8 +28,9 @@ public:
     vector<string> generate_and_or_set();
     vector<string> generate_full_set();
 
-    void clear_index();
 
+    //Sort documents by relevancy
+    vector<DSDoc> generate_sorted_set();
 
 private:
     std::string search_term;
@@ -41,6 +43,10 @@ private:
     std::vector<std::string> not_vector;
     std::vector<std::string> person_vector;
     std::vector<std::string> org_vector;
+
+    std::vector<std::string> sorted_docs;
+
+
     QUERY_TYPE type;
 
 

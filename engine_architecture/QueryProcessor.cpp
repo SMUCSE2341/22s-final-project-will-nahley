@@ -169,19 +169,19 @@ vector<string> QueryProcessor::generate_and_or_set() {
         vector<string> union_vec = first_handler.get_correct_documents();
         std::sort(union_vec.begin(), union_vec.end());
 
-            for (int i = 1; i < or_vector.size(); i++) {
-                // Using a loop here because we have to assume that there could be more than one
-                // AND term, so by creating a vector for each, we can get one combined set
-                vector<string> vec = union_vec;
-                union_vec.clear();
-                IndexHandler current_handler(or_vector[i], search_path, 't');
-                vector<string> current_vector = current_handler.get_correct_documents();
-                std::sort(current_vector.begin(), current_vector.end());
-                std::sort(vec.begin(), vec.end());
-                std::set_union(vec.begin(), vec.end(), current_vector.begin(), current_vector.end(),std::back_inserter(union_vec));
-            }
+        for (int i = 1; i < or_vector.size(); i++) {
+            // Using a loop here because we have to assume that there could be more than one
+            // AND term, so by creating a vector for each, we can get one combined set
+            vector<string> vec = union_vec;
+            union_vec.clear();
+            IndexHandler current_handler(or_vector[i], search_path, 't');
+            vector<string> current_vector = current_handler.get_correct_documents();
+            std::sort(current_vector.begin(), current_vector.end());
+            std::sort(vec.begin(), vec.end());
+            std::set_union(vec.begin(), vec.end(), current_vector.begin(), current_vector.end(),std::back_inserter(union_vec));
+        }
 
-            return union_vec;
+        return union_vec;
 
     }
 
@@ -214,7 +214,7 @@ vector<string> QueryProcessor::generate_full_set() {
         vector<string> org_set = o_handler.get_correct_documents();
         std::sort(temp_set.begin(), temp_set.end());
         std::sort(org_set.begin(), org_set.end());
-        if (!temp_set.empty())
+        if (!temp_set.empty() || !person_vector.empty()) //If person vector is not empty, that means we want to take the int
             std::set_intersection(temp_set.begin(), temp_set.end(), org_set.begin(), org_set.end(), std::back_inserter(full_set)); //temp set represents the docs we already have
         else                                                                                                                                //and we combine that with person set for the correct total set
             full_set = org_set;
@@ -234,9 +234,26 @@ vector<string> QueryProcessor::generate_full_set() {
 
 }
 
-void QueryProcessor::clear_index() {
 
-    IndexHandler h("NA", search_path, 't');
-    h.clear();
+vector<DSDoc> QueryProcessor::generate_sorted_set() {
+    vector<DSDoc> sorted_documents;
+    vector<string> unsorted_set = generate_full_set();
+    vector<string> search_terms;
+    if (!and_vector.empty())
+        search_terms = and_vector;
+    else if (!or_vector.empty())
+        search_terms = or_vector;
+
+    for (int i = 0; i < unsorted_set.size(); i++) {
+        if (unsorted_set[i][0] != '\r') {
+            DSDoc doc(unsorted_set[i], search_terms);
+            sorted_documents.push_back(doc);
+        }
+    }
+    std::sort(sorted_documents.begin(), sorted_documents.end());
+
+    return sorted_documents;
+
 }
+
 
